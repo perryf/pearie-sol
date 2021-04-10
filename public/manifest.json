@@ -1,0 +1,20 @@
+{
+	"short_name": "Pearie_Sol",
+	"name": "Pearie Sol Music",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "32x32",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "pearie-sol-icon.png",
+			"type": "image/png",
+			"sizes": "148x1148"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#333F63",
+	"background_color": "#838BC2"
+}
