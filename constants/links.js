@@ -23,12 +23,12 @@ export const navLinks = [
 		text: 'Info',
 		value: 'info',
 		path: '/info'
-	},
-	{
-		text: 'More cat',
-		value: 'moreCat',
-		path: './ok'
 	}
+	// {
+	// 	text: 'More cat',
+	// 	value: 'moreCat',
+	// 	path: './ok'
+	// }
 ]
 
 export const coolLinks = [

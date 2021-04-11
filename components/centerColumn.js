@@ -22,7 +22,7 @@ const CenterColumn = ({
 					Pearie Sol
 				</p>
 			</div>
-			<div className="mainImageBox">
+			<div className={styles.mainImageBox}>
 				<img
 					onClick={handleInvertColors}
 					className={`

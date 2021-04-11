@@ -1,11 +1,13 @@
 .container {
-	/* height: 100vh; */
+	height: 100vh;
+  margin: auto;
 	/* padding: 0 0.5rem; */
-	max-width: 1200px;
+  /* width: 100%; */
+	/* max-width: 1200px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	align-items: center;
+	/* align-items: center; */
 }
 
 .header {

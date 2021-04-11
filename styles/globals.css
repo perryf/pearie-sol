@@ -2,11 +2,15 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	height: 100vh;
+	/* height: 100vh; */
 	/* background: #715c8c; */
 	overflow: hidden;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+main {
+  height: 100%;
 }
 
 a {
@@ -37,3 +41,5 @@ li {
 .pointer {
 	cursor: pointer;
 }
+
+/* Bootstrap 4	min: 576px	min: 768px	min: 992px	min: 1200px */

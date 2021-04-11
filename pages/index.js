@@ -8,7 +8,7 @@ const getRandomNum = () => Math.floor(Math.random() * 4)
 
 export default function Home() {
 	const [invertProfile, setInvertProfile] = useState(false)
-	const [titleColor, setTitleColor] = useState('#FF2200')
+	const [titleColor, setTitleColor] = useState('#EE2211')
 
 	const handleInvertColors = () => {
 		setInvertProfile(!invertProfile)
@@ -27,8 +27,8 @@ export default function Home() {
 		<Layout location="home">
 			<div className={styles.homeContainer}>
 				<div>
-					<div className="homeTop">
-						<div className="sideColumn">
+					<div className={styles.homeTop}>
+						<div className={styles.sideColumn}>
 							{
 								// <img
 								// 	className={`imgHorizontalFlip ${horseSpin}`}
@@ -52,7 +52,7 @@ export default function Home() {
 							// clickCount={clickCount}
 							// customTheme={customTheme}
 						/>
-						<div className="sideColumn">
+						<div className={styles.sideColumn}>
 							{
 								// <img
 								// 	className={`imgHorizontalFlip cat ${catSpin}`}

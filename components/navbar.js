@@ -42,16 +42,14 @@ class NavBar extends Component {
 		return (
 			<nav style={{ background }} className={styles.navContainer}>
 				{navLinks.map(link => (
-					<span
+					<div
 						key={link.value}
-						className={`${styles.navLink} ${
-							link.value === 'moreCat' ? styles.moreCat : styles.normalNav
-						}`}
+						className={`${styles.navLink} ${styles.normalNav}`}
 					>
 						<Link href={link.path}>
 							<p id={link.value}>{link.text}</p>
 						</Link>
-					</span>
+					</div>
 				))}
 			</nav>
 		)

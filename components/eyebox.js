@@ -1,22 +1,19 @@
 import React, { Component } from 'react'
 import styles from './eyeBox.module.css'
 
-// let timer = null
-
 class EyeBox extends Component {
 	constructor(props) {
 		super(props)
 		this.state = {
 			randomNumber: 0,
 			eyeBlink: '',
-			eyes: []
+			eyes: [{ key: 1 }]
 		}
 		this.timer = null
 	}
 
 	componentDidMount() {
 		this.randomize()
-		this.addMoreEyes()
 	}
 
 	componentWillUnMount() {
@@ -25,10 +22,10 @@ class EyeBox extends Component {
 
 	randomize() {
 		this.timer = setInterval(() => {
-			const newNumber = Math.ceil(Math.random() * 5)
-			this.setState({ randomNumber: newNumber })
+			const newNumber = Math.ceil(Math.random() * 4)
 
-			if (newNumber === 5) this.animateBlink()
+			if (newNumber === 4) this.animateBlink()
+			this.setState({ randomNumber: newNumber })
 		}, 4000)
 	}
 
@@ -40,7 +37,7 @@ class EyeBox extends Component {
 	addMoreEyes = () => {
 		this.setState(({ eyes }) => {
 			return eyes.length >= 3
-				? { eyes: state.eyes.slice(0, 1) }
+				? { eyes: eyes.slice(0, 1) }
 				: { eyes: [...eyes, { key: eyes.length + 1 }] }
 		})
 	}

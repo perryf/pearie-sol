@@ -13,8 +13,9 @@
 	justify-content: space-around;
 	flex-wrap: wrap;
 	align-items: center;
-	height: 10vh;
-	max-height: 10vh;
+	/* height: 10vh;
+	min-height: 10vh;
+  max-height: 10vh; */
 	border-radius: 3px;
 	border: 2px double maroon;
 	box-shadow: 1px 1px 2px grey;
@@ -22,34 +23,38 @@
 
 .navLink {
 	z-index: 2;
-	box-shadow: 2px 2px 2px gold;
-	background: violet;
+	box-shadow: 3px 3px 2px gold;
+	background: #44aaaa;
+	background-image: linear-gradient(60deg, #44aaaa, #338888);
 	border: 1px dotted purple;
 	border-radius: 3px;
-	padding: 4px;
-	height: 24px;
+	margin: 4px;
+	/* padding: 4px 8px; */
+	/* height: 24px; */
 	color: lightgreen;
 	animation: colorChange 1s linear infinite forwards;
 	animation-play-state: paused;
 	text-align: center;
+	font-weight: 500;
 }
 .navLink p {
-	font-size: 20px;
-	margin: 0;
-	text-shadow: 2px 2px 1px black;
+	font-size: 28px;
+	margin: 6px 8px;
+	text-shadow: 3px 3px 2px black;
 }
 
 .normalNav:hover {
 	cursor: help;
 	animation-play-state: running;
 }
+
 .normalNav:hover p {
-	font-size: 25px !important;
-	margin: -5px 0;
+	/* font-size: 25px !important; */
+	/* margin: -5px 0; */
 	text-decoration: underline wavy;
 }
 
-#moreCat {
+/* #moreCat {
 	display: block;
 	animation: navDrop 0.5s ease-in infinite forwards;
 	animation-play-state: paused;
@@ -58,7 +63,7 @@
 #moreCat:hover {
 	animation-play-state: running;
 	cursor: help;
-}
+} */
 
 @keyframes navDrop {
 	0% {
@@ -105,30 +110,30 @@
 	}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 576px) {
 	.navLink {
-		height: 20px;
+		/* height: 20px; */
 	}
 	.navLink p {
-		font-size: 17px;
+		/* font-size: 17px; */
 	}
 	.normalNav:hover p {
-		font-size: 21px !important;
+		/* font-size: 21px !important; */
 	}
 	.moreCat {
-		display: none;
+		/* display: none; */
 	}
 }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
 	.navLink {
-		height: 28px;
-		padding: 6px 8px;
+		/* height: 28px; */
+		/* padding: 6px 8px; */
 	}
 	.navLink p {
-		font-size: 24px;
+		/* font-size: 24px; */
 	}
 	.normalNav:hover p {
-		font-size: 32px !important;
+		/* font-size: 32px !important; */
 	}
 }
