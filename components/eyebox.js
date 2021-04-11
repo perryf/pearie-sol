@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import styles from './eyeBox.module.css'
 
 class EyeBox extends Component {

@@ -13,9 +13,9 @@
 	justify-content: space-around;
 	flex-wrap: wrap;
 	align-items: center;
-	/* height: 10vh;
 	min-height: 10vh;
-  max-height: 10vh; */
+	height: 10vh;
+  /* max-height: 10vh; */
 	border-radius: 3px;
 	border: 2px double maroon;
 	box-shadow: 1px 1px 2px grey;

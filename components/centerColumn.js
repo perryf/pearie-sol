@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import Image from 'next/image'
 import EyeBox from './eyeBox'
 import styles from './centerColumn.module.css'
 
@@ -23,15 +24,18 @@ const CenterColumn = ({
 				</p>
 			</div>
 			<div className={styles.mainImageBox}>
-				<img
+				<Image
+					priority
 					onClick={handleInvertColors}
 					className={`
             ${styles.centerImages}
             ${styles.mainImage}
             ${invertProfile ? styles.invertProfile : ''}
           `}
-					src="pearie-sol-icon.png"
+					src="/pearie-sol-icon.png"
 					alt="self"
+					width={200}
+					height={200}
 				/>
 			</div>
 		</div>
