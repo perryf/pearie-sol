@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PEARIE SOL
 
-## Getting Started
+- https://peariesol.com/
+  > https://github.com/peariesol/peariesol.github.io
 
-First, run the development server:
+## Random notes for me
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- To make changes with styling and to watch the changes in real time, you need to run two node processes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. `npm run watch-css` -> Watches sass files in real time and updates css with changes
+   > Note watch-css is a heavy load on the comp!
+2. `npm start` -> Runs the rest
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### How to Release updates
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. `npm run deploy`
+   > This package handles pretty much everything for you. It will build and push the correct files up to github
+   > Do not try to run build yourself and push to github or you will run into problems
+   > Do not pull down master because its essentially a build repo and you will run into problems
+2. In `https://github.com/peariesol/peariesol.github.io`, click "Settings", under custom domain, enter `peariesol.com`
+3. Confirm changes at `https://peariesol.com/`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+custom domain: peariesol.com
+enforce https
 
-## Learn More
+### Resources
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- https://gifcities.org/ -->
+<!-- http://www.rw-designer.com/gallery -->
+<!-- https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b -->

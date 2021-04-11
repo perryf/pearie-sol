@@ -3,7 +3,7 @@ import Link from 'next/link'
 import PropTypes from 'prop-types'
 import { navLinks } from '../constants/links'
 // import { colorNames } from 'Utils/ColorNames'
-import './NavBar.module.css'
+import styles from './NavBar.module.css'
 
 class NavBar extends Component {
 	constructor(props) {
@@ -40,12 +40,12 @@ class NavBar extends Component {
       ${this.state.colors.c}
     )`
 		return (
-			<nav style={{ background }} className="navContainer">
+			<nav style={{ background }} className={styles.navContainer}>
 				{navLinks.map(link => (
 					<span
 						key={link.value}
-						className={`navLink ${
-							link.value === 'moreCat' ? 'moreCat' : 'normalNav'
+						className={`${styles.navLink} ${
+							link.value === 'moreCat' ? styles.moreCat : styles.normalNav
 						}`}
 					>
 						<Link href={link.path}>
