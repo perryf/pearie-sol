@@ -17,6 +17,7 @@
 	justify-content: space-around;
 	flex-wrap: wrap;
 	align-items: center;
+	width: 100%;
 	/* min-height: 10vh; */
 	/* max-height: 75px; */
 	border-radius: 3px;
@@ -31,30 +32,33 @@
 	background-image: linear-gradient(60deg, #44aaaa, #338888);
 	border: 1px dotted purple;
 	border-radius: 3px;
-	margin: 4px;
+	margin: 8px;
 	/* padding: 4px 8px; */
 	/* height: 24px; */
 	color: lightgreen;
-	animation: colorChange 1s linear infinite forwards;
-	animation-play-state: paused;
+	/* animation: colorChange 1s linear infinite forwards;
+	animation-play-state: paused; */
 	text-align: center;
 	font-weight: 500;
 }
+
 .navLink p {
 	font-size: 28px;
 	margin: 6px 8px;
 	text-shadow: 3px 3px 2px black;
 }
 
-.normalNav:hover {
-	cursor: help;
-	animation-play-state: running;
+.normalNav p {
+	animation: colorChange 1s linear infinite forwards;
+	animation-play-state: paused;
 }
 
 .normalNav:hover p {
 	/* font-size: 25px !important; */
 	/* margin: -5px 0; */
+	cursor: help;
 	text-decoration: underline wavy;
+	animation-play-state: running;
 }
 
 /* #moreCat {

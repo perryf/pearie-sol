@@ -1,6 +1,6 @@
 .mediaPage {
 	/* overflow-y: scroll; */
-	height: 100%;
+	min-height: 100%;
 	display: flex;
 	flex-direction: column;
 	background: linear-gradient(to right, #9894b8, #49acaf, #9894b8);
@@ -41,7 +41,16 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: baseline;
 	flex-wrap: wrap;
+}
+
+.imageGallery div {
+  margin: 12px !important; /* Override next Image magic */
+}
+
+.photoImage {
+  margin: 8px;
 }
 
 .loader {
