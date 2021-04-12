@@ -15,13 +15,13 @@ const CenterColumn = ({
 		<div className={styles.centerColumn}>
 			<EyeBox />
 			<div className={styles.mainTitleBox}>
-				<p
+				<h1
 					style={{ color: titleColor }}
 					onClick={handleTitleColor}
 					className={`${styles.mainImageTitle}`}
 				>
 					Pearie Sol
-				</p>
+				</h1>
 			</div>
 			<div className={styles.mainImageBox}>
 				<Image

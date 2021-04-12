@@ -1,19 +1,20 @@
 .infoPage {
+	height: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	background: black;
+	/* justify-content: space-between; */
+	background: radial-gradient(lightsteelblue, slateblue);
+	width: 100%;
 }
 
 .infoPageTop {
-	height: 20vh;
+	/* height: 20vh; */
 }
 
 .topRow {
 	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	width: 100vw;
+	justify-content: center;
+	/* width: 100vw; */
 	margin: 10px 0 0;
 }
 
@@ -31,20 +32,27 @@
 }
 
 .contactInfoEmail {
-	margin: 0 12px;
+	margin: 20px 12px;
 	border: 2px dashed lime;
-	padding: 8px;
-	background: #771177dd;
-	font-size: 1.5em;
-	animation: colorChange 1s linear infinite;
-	animation-play-state: paused;
+	padding: 16px;
+	/* background: #771177dd; */
+	color: greenyellow;
+	font-size: 2em;
+	font-family: 'Fredoka One', sans-serif;
+	text-shadow: 0 0 4px black;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	user-select: none;
+	/* animation: colorChange 1s linear infinite;
+	animation-play-state: paused; */
 }
 
 .contactInfoEmail:hover {
-	transition: linear;
-	transition-duration: 0.5s;
-	animation-play-state: running;
-	text-decoration: underline wavy;
+	/* transition: linear; */
+	/* transition-duration: 0.5s; */
+	/* animation-play-state: running; */
+	/* text-decoration: underline wavy; */
 	cursor: help;
 }
 
@@ -55,15 +63,52 @@
 
 .dumbText {
 	display: inline-block;
-	position: relative;
+	position: absolute;
 	left: 70vw;
 	color: lightpink;
 	width: 60vw;
 	font-size: 8px;
+	overflow: none;
+}
+
+@keyframes colorChange {
+	0% {
+		color: lightgreen;
+	}
+	10% {
+		color: darkorchid;
+	}
+	20% {
+		color: darkcyan;
+	}
+	30% {
+		color: violet;
+	}
+	40% {
+		color: goldenrod;
+	}
+	50% {
+		color: saddlebrown;
+	}
+	60% {
+		color: crimson;
+	}
+	70% {
+		color: blanchedalmond;
+	}
+	80% {
+		color: darkolivegreen;
+	}
+	90% {
+		color: lightskyblue;
+	}
+	100% {
+		color: lightgreen;
+	}
 }
 
 @media (max-width: 700px) {
-	.infoPageTop {
+	/* .infoPageTop {
 		height: 16vh;
 	}
 	.contactInfoEmail {
@@ -72,11 +117,11 @@
 	.emailImage {
 		width: 80px;
 		height: 50px;
-	}
+	} */
 }
 
 @media (max-width: 500px) {
-	.infoPageTop {
+	/* .infoPageTop {
 		height: 16vh;
 	}
 	.horseHead {
@@ -93,5 +138,5 @@
 	}
 	.dumbText {
 		width: 80vw;
-	}
+	} */
 }

@@ -1,14 +1,15 @@
 .infoBottom {
-	height: 80vh;
+	/* height: 80vh; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	overflow: hidden;
 }
 
 .pressContainer {
-	margin: 0 auto;
-	height: 100%;
+	/* margin: 0 auto; */
+	/* height: 100%; */
 	width: 60vw;
 	min-width: 200px;
 	display: flex;
@@ -44,7 +45,7 @@
 .pressLinkContainer {
 	height: 100%;
 	border: 1px dashed rosybrown;
-	background: green;
+	background: lightseagreen;
 }
 
 .pressLinks {
@@ -58,18 +59,19 @@
 	margin: 6px;
 	padding: 8px;
 	border-radius: 2px;
-	background: darkblue;
-	animation: colorChange 1s linear infinite;
-	animation-play-state: paused;
-	display: inline-block;
+	/* background: darkblue; */
+	/* animation: colorChange 1s linear infinite;
+	animation-play-state: paused; */
+	/* display: inline-block; */
 }
 
 .pressLink:hover {
 	cursor: help;
-	animation-play-state: running;
+	/* animation-play-state: running; */
 }
+
 .pressLink:hover p {
-	text-decoration: underline wavy;
+	/* text-decoration: underline wavy; */
 }
 
 .pressHeading {
@@ -81,12 +83,13 @@
 }
 
 .hotLinkHeading {
-	width: 250px;
+	/* width: 250px; */
 }
 
 .hotLinks {
 	min-width: 130px;
 	width: 40vw;
+  /* border: 1px dashed mediumaquamarine; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -96,30 +99,49 @@
 .hotLink {
 	animation: colorChange 1s linear infinite;
 	animation-play-state: paused;
-	background: purple;
-	height: 50px;
+	/* background: purple; */
+	/* height: 50px; */
 	border-radius: 3px;
-	margin: 4px;
-	padding: 4px;
+	margin: 16px;
+	/* padding: 4px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	/* align-items: center; */
+	animation: linkTwerk 2s linear infinite alternate;
+	animation-play-state: running;
+  font-family: 'Fredoka One', Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px black;
+  color: lightcoral;
 }
-.hotLink p {
+
+/* .hotLink p {
 	margin: 0;
 	padding: 0;
 	animation: linkTwerk 2s linear infinite alternate;
 	animation-play-state: running;
-}
+} */
 
 .hotLink:hover {
-	animation-play-state: running;
-	text-decoration: underline wavy;
+	/* animation-play-state: running; */
+	/* text-decoration: underline wavy; */
 	cursor: help;
 }
 
-.horseVoteBox {
+.hotLinkTitle {
+	font-style: italic;
+	font-family: 'Fredoka One', Helvetica, sans-serif;
+	text-shadow: 2px 2px 2px black;
+	color: cyan;
+	animation: linkTwerkHeading 3s linear infinite alternate;
+	animation-play-state: running;
+}
+
+.hotLinkTitle:hover {
+	animation-play-state: running;
+}
+
+/* .horseVoteBox {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -133,6 +155,7 @@
 	align-items: center;
 	flex-wrap: wrap-reverse;
 }
+
 .horseVote img {
 	margin: 0 8px;
 }
@@ -142,6 +165,17 @@
 	font-family: fantasy;
 	color: red;
 	margin: 6px 0 4px;
+} */
+
+@keyframes linkTwerkHeading {
+	0% {
+		font-size: 1.4em;
+		transform: rotate(5deg);
+	}
+	100% {
+		font-size: 2em;
+		transform: rotate(-2deg);
+	}
 }
 
 @keyframes linkTwerk {
@@ -156,7 +190,7 @@
 }
 
 @media (max-width: 700px) {
-	.infoPageBottom {
+	/* .infoPageBottom {
 		height: 84vh;
 	}
 	.pressHeading {
@@ -176,11 +210,11 @@
 	}
 	.hotLink {
 		height: 40px;
-	}
+	} */
 }
 
 @media (max-width: 500px) {
-	.infoPageBottom {
+	/* .infoPageBottom {
 		height: 84vh;
 	}
 	.pressHeading {
@@ -216,13 +250,14 @@
 			font-size: 1em;
 			transform: rotate(3deg);
 		}
-	}
+	} */
 }
 
 @media (min-width: 1300px) {
-	.pressQuotes {
+	/* .pressQuotes {
 		flex-direction: column;
 	}
+
 	.pressQuote {
 		font-size: 1em;
 		font-family: cursive;
@@ -230,22 +265,26 @@
 		margin: 12px;
 		border-radius: 4px;
 	}
+
 	.pressLink {
 		font-size: 1.2em;
 		margin: 8px;
 		padding: 12px;
 		border-radius: 4px;
 	}
+
 	.hotLinkHeading {
 		width: 320px;
 	}
+
 	.hotLink {
 		height: 60px;
 		border-radius: 4px;
 		margin: 6px;
 		padding: 4px 12px;
-	}
-	@keyframes linkTwerk {
+	} */
+
+	/* @keyframes linkTwerk {
 		0% {
 			font-size: 1.2em;
 			transform: rotate(-2deg);
@@ -254,5 +293,5 @@
 			font-size: 1.6em;
 			transform: rotate(5deg);
 		}
-	}
+	} */
 }

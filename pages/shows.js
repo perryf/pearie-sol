@@ -1,5 +1,5 @@
 import { compareAsc, parse } from 'date-fns'
-import showList from '../constants/showList'
+import showList from '../constants/json/showList'
 import Layout from '../components/layout'
 import ShowList from '../components/showList'
 import styles from '../styles/pages/shows.module.css'

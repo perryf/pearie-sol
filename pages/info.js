@@ -1,15 +1,18 @@
 import React from 'react'
-import { dumbText } from 'Utils/Constants'
-import InfoPageBottom from './Components/InfoPageBottom/InfoPageBottom'
-import './Info.css'
+import { dumbText } from '../constants'
+import Layout from '../components/layout'
+import InfoBottom from '../components/infoBottom'
+import styles from '../styles/pages/info.module.css'
 
-const Info = () => (
-	<div className="infoPage">
-		<div className="infoPageTop">
-			<div className="topRow">
-				<img src="gifs/horse_head.gif" alt="horse head" className="horseHead" />
-				<div className="contactInfo">
-					<a
+export default function Info() {
+	return (
+		<Layout location="info">
+			<div className={styles.infoPage}>
+				<div>
+					<div className={styles.topRow}>
+						{/* <img src="gifs/horse_head.gif" alt="horse head" className="horseHead" /> */}
+						<div className={styles.contactInfo}>
+							{/* <a
 						className="contactInfoEmail"
 						href="mailto:solpearie@gmail.com?Subject=Hello%20Dolly"
 						target="_top"
@@ -19,17 +22,15 @@ const Info = () => (
 							alt="horse gif 2"
 							className="emailImage"
 						/>
-					</a>
+					</a> */}
+							<a
+								href="mailto:solpearie@gmail.com?Subject=Hello%20Dolly"
+								target="_top"
+							>
+								<p className={styles.contactInfoEmail}>Email Me!!</p>
+							</a>
 
-					<a
-						className="contactInfoEmail"
-						href="mailto:solpearie@gmail.com?Subject=Hello%20Dolly"
-						target="_top"
-					>
-						Email Me!!
-					</a>
-
-					<a
+							{/* <a
 						className="contactInfoEmail"
 						href="mailto:solpearie@gmail.com?Subject=Hello%20Dolly"
 						target="_top"
@@ -39,14 +40,14 @@ const Info = () => (
 							alt="horse gif 3"
 							className="emailImage"
 						/>
-					</a>
+					</a> */}
+						</div>
+						{/* <img src="gifs/horse_head.gif" alt="horse head" className="horseHead" /> */}
+					</div>
+					{/* <p className={styles.dumbText}>{dumbText}</p> */}
 				</div>
-				<img src="gifs/horse_head.gif" alt="horse head" className="horseHead" />
+				<InfoBottom />
 			</div>
-			<p className="dumbText">{dumbText}</p>
-		</div>
-		<InfoPageBottom />
-	</div>
-)
-
-export default Info
+		</Layout>
+	)
+}
