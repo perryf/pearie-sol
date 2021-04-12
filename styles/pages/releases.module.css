@@ -13,11 +13,11 @@
 	/* animation: skew 666s linear 8s infinite; */
 }
 
-.iframePlayer {
+/* .iframePlayer {
 	border: 0;
 	width: 300px;
 	height: 300px;
-}
+} */
 
 .loader {
 	position: relative;
@@ -61,8 +61,8 @@
 }
 
 @media (min-width: 900px) {
-	.iframePlayer {
+	/* .iframePlayer {
 		width: 450px;
 		height: 450px;
-	}
+	} */
 }

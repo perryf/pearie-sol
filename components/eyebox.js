@@ -1,7 +1,6 @@
 import { Component } from 'react'
 import styles from './eyeBox.module.css'
 
-const mounted = true
 class EyeBox extends Component {
 	constructor(props) {
 		super(props)
@@ -11,28 +10,37 @@ class EyeBox extends Component {
 			eyes: [{ key: 1 }]
 		}
 		this.timer = null
+		this.tempTimer = null
+		this.mounted = false
 	}
 
 	componentDidMount() {
+		this.mounted = true
 		this.randomize()
 	}
 
 	componentWillUnMount() {
+		this.mounted = false
 		clearInterval(this.timer)
+		clearTimeout(this.tempTimer)
 	}
 
 	randomize() {
 		this.timer = setInterval(() => {
 			const newNumber = Math.ceil(Math.random() * 4)
 
-			if (newNumber === 4) this.animateBlink()
-			if (mounted) this.setState({ randomNumber: newNumber })
+			if (this.mounted && newNumber === 4) this.animateBlink()
+			if (this.mounted) this.setState({ randomNumber: newNumber })
 		}, 4000)
 	}
 
 	animateBlink() {
-		this.setState({ eyeBlink: 'playBlink' })
-		setTimeout(() => this.setState({ eyeBlink: '' }), 2000)
+		if (this.mounted) {
+			this.setState({ eyeBlink: 'playBlink' })
+			this.tempTimer = setTimeout(() => {
+				if (this.mounted) this.setState({ eyeBlink: '' })
+			}, 2000)
+		}
 	}
 
 	addMoreEyes = () => {

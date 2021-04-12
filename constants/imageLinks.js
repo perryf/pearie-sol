@@ -5,74 +5,105 @@ export const photos = [
 		src: 'full-sitting-flamingo-sideways.jpg',
 		folder: 'photos',
 		size: 'full',
+		width: 360,
+		height: 240,
 		portrait: false
 	},
 	{
 		src: 'full-sitting-flamingo.jpg',
 		folder: 'photos',
 		size: 'full',
+		width: 360,
+		height: 240,
 		portrait: false
 	},
 	{
 		src: 'full-standing-music-shirt.jpg',
 		folder: 'photos',
 		size: 'full',
+		width: 240,
+		height: 360,
 		portrait: true
 	},
 	{
 		src: 'full-standing-sad.jpg',
 		folder: 'photos',
 		size: 'full',
+		width: 360,
+		height: 240,
 		portrait: false
 	},
 	{
 		src: 'full-standing-sweatshirt.jpg',
 		folder: 'photos',
 		size: 'full',
-		portrait: false
+		portrait: false,
+		width: 360,
+		height: 240
 	},
 	{
 		src: 'small-sitting-flamingo-sideways.jpg',
 		folder: 'photos',
 		size: 'small',
+		width: 360,
+		height: 240,
 		portrait: false
 	},
 	{
 		src: 'small-sitting-flamingo.jpg',
 		folder: 'photos',
 		size: 'small',
+		width: 360,
+		height: 240,
 		portrait: false
 	},
 	{
 		src: 'small-standing-music-shirt.jpg',
 		folder: 'photos',
 		size: 'small',
+		width: 240,
+		height: 360,
 		portrait: true
 	},
 	{
 		src: 'small-standing-sad.jpg',
 		folder: 'photos',
 		size: 'small',
+		width: 360,
+		height: 240,
 		portrait: false
 	},
 	{
 		src: 'small-standing-sweatshirt.jpg',
 		folder: 'photos',
 		size: 'small',
+		width: 360,
+		height: 240,
 		portrait: false
-	}
+	},
+
+  {
+		src: 'brightan-painting-small.png',
+		folder: 'photos',
+		size: 'small',
+		width: 360,
+		height: 342,
+		portrait: true
+	},
 ]
 
 export const flyers = [
 	{
-		src: '2019-spring-tour.jpg',
+		src: '2019-spring-tour.jpeg',
 		folder: 'flyers',
 		size: 'full'
 	},
 	{
-		src: '2019-spring-tour-small.jpg',
+		src: '2019-spring-tour-small.jpeg',
 		folder: 'flyers',
-		size: 'small'
+		size: 'small',
+		width: 283,
+		height: 360
 	},
 	{
 		src: 'boogie-woogie-full.png',
@@ -82,7 +113,9 @@ export const flyers = [
 	{
 		src: 'boogie-woogie-small.png',
 		folder: 'flyers',
-		size: 'small'
+		size: 'small',
+		width: 269,
+		height: 360
 	},
 	{
 		src: 'buster-brown-full.jpg',
@@ -92,17 +125,21 @@ export const flyers = [
 	{
 		src: 'buster-brown-small.jpg',
 		folder: 'flyers',
-		size: 'small'
+		size: 'small',
+		width: 360,
+		height: 248
 	},
 	{
-		src: 'nov-flyer-final.png',
+		src: 'nov-flyer-final.jpg',
 		folder: 'flyers',
 		size: 'full'
 	},
 	{
-		src: 'nov-flyer-final-small.png',
+		src: 'nov-flyer-final-small.jpg',
 		folder: 'flyers',
-		size: 'small'
+		size: 'small',
+		width: 256,
+		height: 360
 	}
 ]
 

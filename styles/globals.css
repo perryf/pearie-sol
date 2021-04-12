@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 html,
 body {
 	padding: 0;
@@ -25,10 +29,6 @@ a {
 	text-decoration: none;
 }
 
-* {
-	box-sizing: border-box;
-}
-
 nav {
 	/* height: 10%; */
 }
@@ -39,14 +39,6 @@ li {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-}
-
-.displayNone {
-	display: none;
-}
-
-.pointer {
-	cursor: pointer;
 }
 
 /* Bootstrap 4	min: 576px	min: 768px	min: 992px	min: 1200px */

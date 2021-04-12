@@ -1,5 +1,4 @@
 .mediaPage {
-	/* overflow-y: scroll; */
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;

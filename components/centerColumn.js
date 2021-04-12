@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types'
 import Image from 'next/image'
+import { baseUrl, photos } from '../constants'
 import EyeBox from './eyeBox'
 import styles from './centerColumn.module.css'
 
-// font-effect-fire-animation
+const mainPhoto = photos.find(p => p.src === 'small-standing-sad.jpg')
 
 const CenterColumn = ({
 	handleInvertColors,
@@ -26,16 +27,17 @@ const CenterColumn = ({
 			<div className={styles.mainImageBox}>
 				<Image
 					priority
+					src={`${baseUrl}/${mainPhoto.folder}/${mainPhoto.src}`}
+					loader={({ src }) => src}
 					onClick={handleInvertColors}
 					className={`
             ${styles.centerImages}
             ${styles.mainImage}
             ${invertProfile ? styles.invertProfile : ''}
           `}
-					src="/pearie-sol-icon.png"
-					alt="self"
-					width={200}
-					height={200}
+					alt="pearie sol title image"
+					width={360}
+					height={240}
 				/>
 			</div>
 		</div>

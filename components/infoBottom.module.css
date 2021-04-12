@@ -1,10 +1,11 @@
 .infoBottom {
 	/* height: 80vh; */
+	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	overflow: hidden;
+	max-width: 1200px;
 }
 
 .pressContainer {
@@ -19,7 +20,7 @@
 
 .pressQuoteContainer {
 	height: 100%;
-	border: 1px solid black;
+	border: 1px dashed black;
 	background: orange;
 }
 
@@ -44,8 +45,8 @@
 
 .pressLinkContainer {
 	height: 100%;
-	border: 1px dashed rosybrown;
-	background: lightseagreen;
+	background: rgb(119, 194, 190);
+	border: 1px dashed black;
 }
 
 .pressLinks {
@@ -59,15 +60,20 @@
 	margin: 6px;
 	padding: 8px;
 	border-radius: 2px;
+
 	/* background: darkblue; */
-	/* animation: colorChange 1s linear infinite;
-	animation-play-state: paused; */
+	animation: colorChange 2s linear infinite;
+	animation-play-state: paused;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
 	/* display: inline-block; */
 }
 
 .pressLink:hover {
 	cursor: help;
-	/* animation-play-state: running; */
+	animation-play-state: running;
 }
 
 .pressLink:hover p {
@@ -77,9 +83,10 @@
 .pressHeading {
 	margin: 4px;
 	font-family: 'Sancreek', cursive;
-	color: #500f0f;
+	color: #300f0f;
 	font-size: 1.6em;
 	text-align: center;
+  text-shadow: 1px 1px 8px whitesmoke;
 }
 
 .hotLinkHeading {
@@ -89,7 +96,7 @@
 .hotLinks {
 	min-width: 130px;
 	width: 40vw;
-  /* border: 1px dashed mediumaquamarine; */
+	/* border: 1px dashed mediumaquamarine; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -97,8 +104,6 @@
 }
 
 .hotLink {
-	animation: colorChange 1s linear infinite;
-	animation-play-state: paused;
 	/* background: purple; */
 	/* height: 50px; */
 	border-radius: 3px;
@@ -110,9 +115,9 @@
 	/* align-items: center; */
 	animation: linkTwerk 2s linear infinite alternate;
 	animation-play-state: running;
-  font-family: 'Fredoka One', Helvetica, sans-serif;
+	font-family: 'Fredoka One', Helvetica, sans-serif;
 	text-shadow: 1px 1px 1px black;
-  color: lightcoral;
+	color: lightcoral;
 }
 
 /* .hotLink p {
@@ -186,6 +191,18 @@
 	100% {
 		font-size: 1.4em;
 		transform: rotate(5deg);
+	}
+}
+
+@keyframes colorChange {
+	0% {
+		color: goldenrod;
+	}
+	50% {
+		color: darkmagenta;
+	}
+	100% {
+		color: goldenrod;
 	}
 }
 

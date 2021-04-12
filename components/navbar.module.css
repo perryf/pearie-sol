@@ -42,21 +42,27 @@
 	font-weight: 500;
 }
 
+.navLink:hover {
+	cursor: help;
+}
+
 .navLink p {
 	font-size: 28px;
 	margin: 6px 8px;
 	text-shadow: 3px 3px 2px black;
-}
-
-.normalNav p {
 	animation: colorChange 1s linear infinite forwards;
 	animation-play-state: paused;
+	padding: 0;
 }
 
-.normalNav:hover p {
+/* .normalNav p {
+	animation: colorChange 1s linear infinite forwards;
+	animation-play-state: paused;
+} */
+
+.navLink:hover p {
 	/* font-size: 25px !important; */
 	/* margin: -5px 0; */
-	cursor: help;
 	text-decoration: underline wavy;
 	animation-play-state: running;
 }
@@ -72,14 +78,14 @@
 	cursor: help;
 } */
 
-@keyframes navDrop {
+/* @keyframes navDrop {
 	0% {
 		margin-top: 0px;
 	}
 	100% {
 		margin-top: 100px;
 	}
-}
+} */
 
 @keyframes colorChange {
 	0% {

@@ -1,0 +1,11 @@
+.displayNone {
+	display: none;
+}
+
+.pointer {
+	cursor: pointer;
+}
+/* 
+.customCursor {
+	cursor: url(fire.cur);
+} */

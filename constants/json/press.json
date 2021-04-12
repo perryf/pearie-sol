@@ -40,5 +40,12 @@
 		"text": "BTR Today",
 		"title": "Get Manic Over Pearie Sol",
 		"link": "http://www.btrtoday.com/read/musicmeetup/get-manic-over-pearie-sol/"
+	},
+	{
+		"value": "formativeTracks",
+		"outlet": "Formative Tracks",
+		"text": "Formative Tracks",
+		"title": "Formative Tracks",
+		"link": "https://www.mixcloud.com/formativetracks/formative-tracks-episode-19-pearie-sol/"
 	}
 ]

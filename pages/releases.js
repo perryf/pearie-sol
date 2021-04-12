@@ -1,11 +1,15 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Layout from '../components/layout'
 import styles from '../styles/pages/releases.module.css'
 
-const mounted = true
-
 export default function Releases() {
 	const [loaded, setLoaded] = useState(false)
+	let mounted = false
+
+	useEffect(() => {
+		mounted = true
+		return () => (mounted = false)
+	}, [])
 
 	return (
 		<Layout location="releases">
@@ -20,21 +24,23 @@ export default function Releases() {
 					{!loaded && (
 						<div className={styles.loader}>Patience is a virtue...</div>
 					)}
+
 					<iframe
-						className={styles.iframePlayer}
 						style={{
 							visibility: loaded ? 'visible' : 'hidden',
-							animationPlayState: loaded ? 'running' : 'paused'
+							border: 0,
+							width: '350px',
+							height: '470px'
 						}}
+						src="https://bandcamp.com/EmbeddedPlayer/album=797557584/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+						seamless
 						onLoad={() => {
 							if (mounted) setLoaded(true)
 						}}
-						id="bandCampEmbed"
 						title="pearie sol s/t tape"
-						src="https://bandcamp.com/EmbeddedPlayer/album=797557584/size=large/bgcol=333333/linkcol=20B2AA/minimal=true/transparent=true/"
-						seamless
+						id="bandCampEmbed"
 					>
-						<a href="http://peariesol.bandcamp.com/album/pearie-sol">
+						<a href="https://peariesol.bandcamp.com/album/pearie-sol">
 							pearie sol by pearie sol
 						</a>
 					</iframe>

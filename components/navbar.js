@@ -9,14 +9,11 @@ export default function Navbar() {
 	return (
 		<nav style={{ background }} className={styles.navContainer}>
 			{navLinks.map(link => (
-				<div
-					key={link.value}
-					className={`${styles.navLink} ${styles.normalNav}`}
-				>
-					<Link href={link.path}>
+				<Link key={link.value} href={link.path}>
+					<div className={styles.navLink}>
 						<p id={link.value}>{link.text}</p>
-					</Link>
-				</div>
+					</div>
+				</Link>
 			))}
 		</nav>
 	)
