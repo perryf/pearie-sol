@@ -1,4 +1,4 @@
-import HTMLHead from './head'
+import HTMLHead from './htmlHead'
 import NavBar from './navbar'
 import styles from './layout.module.css'
 

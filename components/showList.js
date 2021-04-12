@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { format, compareAsc, isValid, parse } from 'date-fns'
+import { format, isValid, parse } from 'date-fns'
 import styles from './showList.module.css'
 
 const maxFont = 20

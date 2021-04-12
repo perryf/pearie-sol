@@ -49,7 +49,7 @@ export default function Media() {
 						/>
 					</div>
 				</div>
-				<div className="photoContainer">
+				<div>
 					<h2 className={styles.mediaHeading}>Photos</h2>
 					<div className={styles.imageGallery}>
 						<a href="./photos/drew_shot.jpg" target="_blank">

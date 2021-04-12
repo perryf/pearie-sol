@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { navLinks, colorNames } from '../constants'
+import { navLinks } from '../constants'
 import styles from './NavBar.module.css'
 
 const colors = ['Black', 'SkyBlue', 'Beige']
