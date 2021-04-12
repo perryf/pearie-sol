@@ -1,0 +1,34 @@
+.showListBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.showBox {
+	margin: 5px auto;
+	border: 2px solid black;
+	padding: 8px 4px;
+	display: inline-block;
+	background: linear-gradient(purple, maroon, black);
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px black;
+}
+
+.showListItemRow {
+	font-family: 'Rubik' sans-serif;
+	border-radius: 2px;
+	color: goldenrod;
+}
+
+.showListLink {
+	color: hotpink;
+}
+
+.showListLink:hover {
+	background: black;
+	cursor: help;
+	color: pink;
+}
+
+.showCategory {
+	color: gold;
+}

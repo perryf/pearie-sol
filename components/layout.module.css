@@ -1,12 +1,14 @@
 .container {
-	height: 100vh;
-  margin: auto;
+	/* height: 100vh; */
+  height: 100%;
+	width: 100%;
+	/* margin: auto; */
 	/* padding: 0 0.5rem; */
-  /* width: 100%; */
+	/* width: 100%; */
 	/* max-width: 1200px; */
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-around; */
 	/* align-items: center; */
 }
 

@@ -1,6 +1,7 @@
 import { Component } from 'react'
 import styles from './eyeBox.module.css'
 
+const mounted = true
 class EyeBox extends Component {
 	constructor(props) {
 		super(props)
@@ -25,7 +26,7 @@ class EyeBox extends Component {
 			const newNumber = Math.ceil(Math.random() * 4)
 
 			if (newNumber === 4) this.animateBlink()
-			this.setState({ randomNumber: newNumber })
+			if (mounted) this.setState({ randomNumber: newNumber })
 		}, 4000)
 	}
 

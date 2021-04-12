@@ -1,6 +1,5 @@
 .mediaPage {
-	overflow-y: scroll;
-	height: 90vh;
+	/* overflow-y: scroll; */
 	background: linear-gradient(to right, #9894b8, #49acaf, #9894b8);
 }
 
@@ -21,6 +20,7 @@
 }
 
 .mediaHeading {
+	margin: 0;
 	font-family: cursive;
 	color: lime;
 	text-align: center;

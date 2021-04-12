@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import Layout from '../components/layout'
 import CenterColumn from '../components/centerColumn'
-import styles from '../styles/home.module.css'
+import styles from '../styles/pages/home.module.css'
 
 const colors = ['#EE2211', '#33AADD', '#77DD22', '#CC44BB']
-const getRandomNum = () => Math.floor(Math.random() * 4)
+const getRandomNum = () => Math.floor(Math.random() * colors.length)
 
 export default function Home() {
 	const [invertProfile, setInvertProfile] = useState(false)

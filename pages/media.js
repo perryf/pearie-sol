@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Layout from '../components/layout'
-import styles from '../styles/media.module.css'
+import styles from '../styles/pages/media.module.css'
+
+const mounted = true
 
 export default function Media() {
 	const [alleyLoaded, setAlleyLoaded] = useState(false)
 	const [loveLoaded, setLoveLoaded] = useState(false)
 
 	return (
-		<Layout location="home">
+		<Layout location="media">
 			<div className={styles.mediaPage}>
 				<div>
 					<h2 className={styles.mediaHeading}>Videos</h2>
@@ -18,7 +20,9 @@ export default function Media() {
 						)}
 						<iframe
 							style={{ display: loveLoaded ? 'initial' : 'none' }}
-							onLoad={() => setLoveLoaded(true)}
+							onLoad={() => {
+								if (mounted) setLoveLoaded(true)
+							}}
 							width="560"
 							height="315"
 							src="https://www.youtube.com/embed/tc2T5ZdKBF4"
@@ -32,7 +36,9 @@ export default function Media() {
 						)}
 						<iframe
 							style={{ display: alleyLoaded ? 'initial' : 'none' }}
-							onLoad={() => setAlleyLoaded(true)}
+							onLoad={() => {
+								if (mounted) setAlleyLoaded(true)
+							}}
 							width="560"
 							height="315"
 							src="https://www.youtube.com/embed/XO7ZyiLq_dg"
