@@ -3,15 +3,7 @@
 - https://peariesol.com/
   > https://github.com/peariesol/peariesol.github.io
 
-## Random notes for me
-
-- To make changes with styling and to watch the changes in real time, you need to run two node processes.
-
-1. `npm run watch-css` -> Watches sass files in real time and updates css with changes
-   > Note watch-css is a heavy load on the comp!
-2. `npm start` -> Runs the rest
-
-### How to Release updates
+## How to Release updates
 
 1. `npm run deploy`
    > This package handles pretty much everything for you. It will build and push the correct files up to github
@@ -23,7 +15,7 @@
 custom domain: peariesol.com
 enforce https
 
-### Resources
+## Resources
 
 <!-- https://gifcities.org/ -->
 <!-- http://www.rw-designer.com/gallery -->
