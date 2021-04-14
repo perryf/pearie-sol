@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import Image from 'next/image'
 import { baseUrl, photos, flyers } from '../constants'
 import Layout from '../components/layout'
@@ -7,13 +7,10 @@ import styles from '../styles/pages/media.module.css'
 export default function Media() {
 	const [alleyLoaded, setAlleyLoaded] = useState(false)
 	const [loveLoaded, setLoveLoaded] = useState(false)
-	let mounted = false
-
+	const componentIsMounted = useRef(true)
 	useEffect(() => {
-		mounted = true
-		return () => (mounted = false)
+		return () => (componentIsMounted.current = false)
 	}, [])
-
 	// useEffect(() => {
 	// 	const fetchData = {
 	// 		method: 'GET',
@@ -49,12 +46,13 @@ export default function Media() {
 							<p className={styles.loader}>Patience is a virtue...</p>
 						)}
 						<iframe
+							className={styles.iframeVideo}
 							style={{ display: loveLoaded ? 'initial' : 'none' }}
 							onLoad={() => {
-								if (mounted) setLoveLoaded(true)
+								if (componentIsMounted.current) setLoveLoaded(true)
 							}}
-							width="560"
-							height="315"
+							// width="560"
+							// height="315"
 							src="https://www.youtube.com/embed/tc2T5ZdKBF4"
 							frameBorder="1"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -65,12 +63,13 @@ export default function Media() {
 							<p className={styles.loader}>Patience is a virtue...</p>
 						)}
 						<iframe
+							className={styles.iframeVideo}
 							style={{ display: alleyLoaded ? 'initial' : 'none' }}
 							onLoad={() => {
-								if (mounted) setAlleyLoaded(true)
+								if (componentIsMounted.current) setAlleyLoaded(true)
 							}}
-							width="560"
-							height="315"
+							// width="560"
+							// height="315"
 							src="https://www.youtube.com/embed/XO7ZyiLq_dg"
 							frameBorder="1"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

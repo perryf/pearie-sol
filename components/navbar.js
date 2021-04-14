@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { navLinks } from '../constants'
 import styles from './NavBar.module.css'
 
-const colors = ['Black', 'SkyBlue', 'Beige']
+const colors = ['#124', 'SkyBlue', 'Beige']
 
 export default function Navbar() {
 	const background = `linear-gradient(${colors[0]}, ${colors[1]}, ${colors[2]})`

@@ -19,7 +19,7 @@ class EyeBox extends Component {
 		this.randomize()
 	}
 
-	componentWillUnMount() {
+	componentWillUnmount() {
 		this.mounted = false
 		clearInterval(this.timer)
 		clearTimeout(this.tempTimer)
@@ -28,7 +28,6 @@ class EyeBox extends Component {
 	randomize() {
 		this.timer = setInterval(() => {
 			const newNumber = Math.ceil(Math.random() * 4)
-
 			if (this.mounted && newNumber === 4) this.animateBlink()
 			if (this.mounted) this.setState({ randomNumber: newNumber })
 		}, 4000)

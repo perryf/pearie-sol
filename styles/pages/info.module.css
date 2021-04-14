@@ -2,58 +2,18 @@
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-between; */
 	background: radial-gradient(lightsteelblue, slateblue);
 	width: 100%;
-}
-
-.infoPageTop {
-	/* height: 20vh; */
 }
 
 .topRow {
 	display: flex;
 	justify-content: center;
-	/* width: 100vw; */
-	margin: 10px 0 0;
 }
 
 .horseHead {
 	width: 60px;
 	height: 60px;
-}
-
-.contactInfo {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: no-wrap;
-	justify-content: center;
-	align-items: center;
-}
-
-.contactInfoEmail {
-	margin: 20px 12px;
-	border: 2px dashed lime;
-	padding: 16px;
-	/* background: #771177dd; */
-	color: greenyellow;
-	font-size: 2em;
-	font-family: 'Fredoka One', sans-serif;
-	text-shadow: 0 0 4px black;
-	font-style: italic;
-	font-weight: bold;
-	text-align: center;
-	user-select: none;
-	/* animation: colorChange 1s linear infinite;
-	animation-play-state: paused; */
-}
-
-.contactInfoEmail:hover {
-	/* transition: linear; */
-	/* transition-duration: 0.5s; */
-	/* animation-play-state: running; */
-	/* text-decoration: underline wavy; */
-	cursor: help;
 }
 
 .emailImage {
@@ -71,46 +31,8 @@
 	overflow: none;
 }
 
-@keyframes colorChange {
-	0% {
-		color: lightgreen;
-	}
-	10% {
-		color: darkorchid;
-	}
-	20% {
-		color: darkcyan;
-	}
-	30% {
-		color: violet;
-	}
-	40% {
-		color: goldenrod;
-	}
-	50% {
-		color: saddlebrown;
-	}
-	60% {
-		color: crimson;
-	}
-	70% {
-		color: blanchedalmond;
-	}
-	80% {
-		color: darkolivegreen;
-	}
-	90% {
-		color: lightskyblue;
-	}
-	100% {
-		color: lightgreen;
-	}
-}
-
 @media (max-width: 700px) {
-	/* .infoPageTop {
-		height: 16vh;
-	}
+	/* 
 	.contactInfoEmail {
 		font-size: 1.3em;
 	}
@@ -121,9 +43,7 @@
 }
 
 @media (max-width: 500px) {
-	/* .infoPageTop {
-		height: 16vh;
-	}
+	/* 
 	.horseHead {
 		width: 45px;
 		height: 45px;
@@ -136,7 +56,5 @@
 		width: 70px;
 		height: 40px;
 	}
-	.dumbText {
-		width: 80vw;
-	} */
+	 */
 }

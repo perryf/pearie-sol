@@ -3,19 +3,36 @@
 	display: flex;
 	flex-direction: column;
 	cursor: url('/fire.cur'), pointer;
-	/* width: 100%; */
-	/* margin: auto; */
-	/* padding: 0 0.5rem; */
-	/* width: 100%; */
-	/* max-width: 1200px; */
-	/* display: flex;
-	flex-direction: column;
-	justify-content: space-around; */
-	/* align-items: center; */
+}
+
+.container .navContainer {
+  height: 63px;
+}
+
+.container main {
+  height: calc(100% - 63px);
 }
 
 .header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+@media (max-width: 992px) {
+  .container .navContainer {
+    height: 53px;
+  }
+  .container main {
+    height: calc(100% - 53px);
+  }
+}
+
+@media (max-width: 576px) {
+  .container .navContainer {
+    height: 44px;
+  }
+  .container main {
+    height: calc(100% - 44px);
+  }
 }

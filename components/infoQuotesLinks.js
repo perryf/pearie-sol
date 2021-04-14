@@ -1,6 +1,6 @@
 import links from '../constants/json/press'
 import quotes from '../constants/json/pressQuotes'
-import styles from './infoBottom.module.css'
+import styles from './infoQuotesLinks.module.css'
 
 const pressLinks = links.map(({ value, text, link }) => (
 	<a href={link} key={value}>
@@ -15,9 +15,9 @@ const pressQuotes = quotes.map(({ value, quote, outlet }) => (
 	</p>
 ))
 
-export default function InfoBottom() {
+export default function InfoQuotesLinks() {
 	return (
-		<div className={styles.infoBottom}>
+		<div className={styles.infoQuotesLinks}>
 			<div className={styles.pressContainer}>
 				<div className={styles.pressQuoteContainer}>
 					<h2 className={styles.pressHeading}>
@@ -41,15 +41,17 @@ export default function InfoBottom() {
 					className={styles.hotLinkHeading}
 				/> */}
 				<h4 className={styles.hotLinkTitle}>HOT LINKS!</h4>
-				<a href="https://g-a-u-c-h-e.bandcamp.com/releases">
-					<p className={styles.hotLink}>Gauche</p>
-				</a>
-				<a href="https://teenliver.bandcamp.com/">
-					<p className={styles.hotLink}>Teen Liver</p>
-				</a>
-				<a href="https://sisterpolygonrecords.bigcartel.com/">
-					<p className={styles.hotLink}>Sister Polygon</p>
-				</a>
+				<div className={styles.hotLinksBox}>
+					<a href="https://g-a-u-c-h-e.bandcamp.com/releases">
+						<p className={styles.hotLink}>Gauche</p>
+					</a>
+					<a href="https://teenliver.bandcamp.com/">
+						<p className={styles.hotLink}>Teen Liver</p>
+					</a>
+					<a href="https://sisterpolygonrecords.bigcartel.com/">
+						<p className={styles.hotLink}>Sister Polygon</p>
+					</a>
+				</div>
 				{/* <div className="horseVoteBox">
 					<h3 className="horseVoteTitle">Dont forget to vote!</h3>
 					<div className="horseVote">
