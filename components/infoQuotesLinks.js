@@ -1,5 +1,6 @@
 import links from '../constants/json/press'
 import quotes from '../constants/json/pressQuotes'
+import { coolLinks } from '../constants'
 import styles from './infoQuotesLinks.module.css'
 
 const pressLinks = links.map(({ value, text, link }) => (
@@ -40,17 +41,15 @@ export default function InfoQuotesLinks() {
 					alt="hot links"
 					className={styles.hotLinkHeading}
 				/> */}
-				<h4 className={styles.hotLinkTitle}>HOT LINKS!</h4>
+				<div className={styles.hotLinkTitleBox}>
+					<h4 className={styles.hotLinkTitle}>HOT LINKS!</h4>
+				</div>
 				<div className={styles.hotLinksBox}>
-					<a href="https://g-a-u-c-h-e.bandcamp.com/releases">
-						<p className={styles.hotLink}>Gauche</p>
-					</a>
-					<a href="https://teenliver.bandcamp.com/">
-						<p className={styles.hotLink}>Teen Liver</p>
-					</a>
-					<a href="https://sisterpolygonrecords.bigcartel.com/">
-						<p className={styles.hotLink}>Sister Polygon</p>
-					</a>
+					{coolLinks.map((link = {}) => (
+						<a href={link.path} key={link.value}>
+							<p className={styles.hotLink}>{link.text}</p>
+						</a>
+					))}
 				</div>
 				{/* <div className="horseVoteBox">
 					<h3 className="horseVoteTitle">Dont forget to vote!</h3>

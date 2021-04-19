@@ -90,8 +90,8 @@
 
 .hotLink {
 	margin: 16px;
-	animation: linkTwerk 2s linear infinite alternate;
-	animation-play-state: running;
+	/* animation: linkTwerk 2s linear infinite alternate; */
+	/* animation-play-state: running; */
 	font-family: 'Fredoka One', Helvetica, sans-serif;
 	text-shadow: 1px 1px 1px black;
 	color: lightcoral;
@@ -101,8 +101,14 @@
 	cursor: help;
 }
 
+.hotLinkTitleBox {
+	height: 50px;
+	max-height: 50px;
+}
+
 .hotLinkTitle {
 	font-style: italic;
+  margin: 0;
 	font-family: 'Fredoka One', Helvetica, sans-serif;
 	text-shadow: 2px 2px 2px black;
 	color: cyan;
@@ -149,11 +155,11 @@
 @keyframes linkTwerk {
 	0% {
 		font-size: 1.2em;
-		transform: rotate(-2deg);
+		transform: rotate(-1deg);
 	}
 	100% {
-		font-size: 1.6em;
-		transform: rotate(5deg);
+		font-size: 1.4em;
+		transform: rotate(3deg);
 	}
 }
 @keyframes colorChange {
@@ -212,10 +218,10 @@
 	.infoQuotesLinks {
 		flex-direction: column-reverse;
 	}
-  .pressContainer {
-    width: auto;
-    margin: 0 12px;
-  }
+	.pressContainer {
+		width: auto;
+		margin: 0 12px;
+	}
 	.pressHeading {
 		font-size: 1em;
 		margin: 0;
@@ -229,7 +235,7 @@
 	}
 	.pressLink {
 		font-size: 0.9em;
-    margin: 0;
+		margin: 0;
 	}
 	.hotLinks {
 		height: 110px;
@@ -242,21 +248,21 @@
 	.hotLink {
 		margin: 8px;
 	}
-  .hotLinksBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  @keyframes linkTwerkHeading {
-    0% {
-      font-size: 1em;
-      transform: rotate(5deg);
-    }
-    100% {
-      font-size: 1.25em;
-      transform: rotate(-2deg);
-    }
-  }
+	.hotLinksBox {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	@keyframes linkTwerkHeading {
+		0% {
+			font-size: 1em;
+			transform: rotate(5deg);
+		}
+		100% {
+			font-size: 1.25em;
+			transform: rotate(-2deg);
+		}
+	}
 	@keyframes linkTwerk {
 		0% {
 			font-size: 0.9em;

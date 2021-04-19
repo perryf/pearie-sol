@@ -1,11 +1,10 @@
 import Link from 'next/link'
-import { navLinks } from '../constants'
+import { navLinks, navColors } from '../constants'
 import styles from './navbar.module.css'
 
-const colors = ['#124', 'SkyBlue', 'Beige']
+const background = `linear-gradient(${navColors[0]}, ${navColors[1]}, ${navColors[2]})`
 
 export default function Navbar() {
-	const background = `linear-gradient(${colors[0]}, ${colors[1]}, ${colors[2]})`
 	return (
 		<nav style={{ background }} className={styles.navContainer}>
 			{navLinks.map(link => (

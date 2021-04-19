@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Image from 'next/image'
-import { baseUrl, miscImages, colors } from '../constants'
+import { baseUrl, miscImages, colors, getRandomIndex } from '../constants'
 import Layout from '../components/layout'
 import EyeBox from '../components/eyeBox'
 import MainImageBox from '../components/mainImageBox'
@@ -8,14 +8,13 @@ import EmailBox from '../components/emailBox'
 import styles from '../styles/pages/home.module.css'
 
 export default function Home() {
-	const [titleColor, setTitleColor] = useState('#EE2211')
+	const [titleColor, setTitleColor] = useState(colors[0])
 
 	const handleTitleColor = () => {
-		let randomNum = getRandomNum()
+		let randomNum = getRandomIndex(colors)
 		while (randomNum === colors.indexOf(titleColor)) {
-			randomNum = getRandomNum()
+			randomNum = getRandomIndex(colors)
 		}
-
 		setTitleColor(colors[randomNum])
 	}
 
