@@ -1,7 +1,6 @@
 # PEARIE SOL
 
 - https://peariesol.com/
-  > https://github.com/peariesol/peariesol.github.io
 
 ## How to Release updates
 
