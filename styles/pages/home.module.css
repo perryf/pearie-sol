@@ -9,6 +9,16 @@
 	justify-content: space-around;
 }
 
+.horseSpin {
+	transition: 666ms;
+	transform: rotateZ(360deg) !important;
+}
+
+.catSpin {
+	transition: 666ms;
+	transform: rotateY(90deg) !important;
+}
+
 .eyeTitleBox {
 	display: flex;
 	flex-direction: column;
@@ -48,7 +58,6 @@
 	.mainTitle {
 		font-size: 36px;
 	}
-	
 }
 
 @media (max-width: 768px) {

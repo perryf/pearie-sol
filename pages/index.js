@@ -9,6 +9,8 @@ import styles from '../styles/pages/home.module.css'
 
 export default function Home() {
 	const [titleColor, setTitleColor] = useState(colors[0])
+	const [horseSpin, setHorseSpin] = useState(false)
+	const [catFlip, setFlipCat] = useState(true)
 
 	const handleTitleColor = () => {
 		let randomNum = getRandomIndex(colors)
@@ -16,6 +18,17 @@ export default function Home() {
 			randomNum = getRandomIndex(colors)
 		}
 		setTitleColor(colors[randomNum])
+	}
+
+	const spinHorse = () => {
+		if (!horseSpin) {
+			setHorseSpin(true)
+			setTimeout(() => setHorseSpin(false), 666)
+		}
+	}
+
+	const flipCat = () => {
+		setFlipCat(!catFlip)
 	}
 
 	return (
@@ -29,7 +42,8 @@ export default function Home() {
 							alt="horse head"
 							src={`${baseUrl}/${miscImages.horseHead.folder}/${miscImages.horseHead.src}`}
 							loader={({ src }) => src}
-							className={styles.sideColImage}
+							className={horseSpin ? styles.horseSpin : ''}
+							onClick={spinHorse}
 						/>
 					</div>
 					<div className={styles.eyeTitleBox}>
@@ -38,7 +52,7 @@ export default function Home() {
 							<h1
 								style={{ color: titleColor }}
 								onClick={handleTitleColor}
-								className={`${styles.mainTitle}`}
+								className={styles.mainTitle}
 							>
 								Pearie Sol
 							</h1>
@@ -51,7 +65,8 @@ export default function Home() {
 							alt="cat walk"
 							src={`${baseUrl}/${miscImages.cat.folder}/${miscImages.cat.src}`}
 							loader={({ src }) => src}
-							className={`${styles.imgVerticalFlip} ${styles.sideColImage}`}
+							className={catFlip ? styles.imgVerticalFlip : ''}
+							onClick={flipCat}
 						/>
 					</div>
 				</div>

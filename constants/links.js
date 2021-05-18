@@ -33,7 +33,12 @@ export const navLinks = [
 
 export const coolLinks = [
 	{
-		text: 'Sister Polygon',
+		text: 'Happy Happy Birthday To Me Records',
+		value: 'hhbtm',
+		path: 'https://www.hhbtm.com/'
+	},
+	{
+		text: 'Sister Polygon Records',
 		value: 'sisterPolygon',
 		path: 'http://sisterpolygonrecords.bigcartel.com/'
 	},

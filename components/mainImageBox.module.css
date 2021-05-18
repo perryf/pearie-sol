@@ -15,8 +15,13 @@
 	transition: 1s;
 }
 
+.mainImage:hover {
+	cursor: help;
+}
+
 .invertProfile {
-	filter: invert(100%);
+	filter: hue-rotate(180deg) contrast(150%);
+	box-shadow: 0 0 100px crimson;
 }
 
 /* .changeHue {
