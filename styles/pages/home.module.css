@@ -45,6 +45,10 @@
 	cursor: help;
 }
 
+.sideImage:hover {
+	cursor: help;
+}
+
 .imgVerticalFlip {
 	transform: rotateY(180deg);
 }
@@ -61,7 +65,7 @@
 }
 
 @media (max-width: 768px) {
-	.sideImage {
+	.sideImageBox {
 		width: 90px;
 	}
 }

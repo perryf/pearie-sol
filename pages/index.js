@@ -31,14 +31,14 @@ export default function Home() {
 		<Layout location="home">
 			<div className={styles.homeContainer}>
 				<div className={styles.topRow}>
-					<div className={styles.sideImage}>
+					<div className={styles.sideImageBox}>
 						<Image
 							width={160}
 							height={160}
 							alt="horse head"
 							src={`${baseUrl}/${miscImages.horseHead.folder}/${miscImages.horseHead.src}`}
 							loader={({ src }) => src}
-							className={horseSpin ? styles.horseSpin : ''}
+							className={`${styles.sideImage} ${horseSpin ? styles.horseSpin : ''}`}
 							onClick={spinHorse}
 						/>
 					</div>
@@ -54,14 +54,14 @@ export default function Home() {
 							</h1>
 						</div>
 					</div>
-					<div className={styles.sideImage}>
+					<div className={styles.sideImageBox}>
 						<Image
 							width={160}
 							height={160}
 							alt="cat walk"
 							src={`${baseUrl}/${miscImages.cat.folder}/${miscImages.cat.src}`}
 							loader={({ src }) => src}
-							className={catFlip ? styles.imgVerticalFlip : ''}
+							className={`${styles.sideImage} ${catFlip ? styles.imgVerticalFlip : ''}`}
 							onClick={flipCat}
 						/>
 					</div>

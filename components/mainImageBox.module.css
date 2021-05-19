@@ -24,6 +24,10 @@
 	box-shadow: 0 0 100px crimson;
 }
 
+.tikiFireBox:hover {
+	cursor: help;
+}
+
 .tikiShift90 {
 	filter: hue-rotate(90deg);
 }
