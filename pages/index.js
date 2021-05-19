@@ -19,17 +19,13 @@ export default function Home() {
 		}
 		setTitleColor(colors[randomNum])
 	}
-
 	const spinHorse = () => {
 		if (!horseSpin) {
 			setHorseSpin(true)
 			setTimeout(() => setHorseSpin(false), 666)
 		}
 	}
-
-	const flipCat = () => {
-		setFlipCat(!catFlip)
-	}
+	const flipCat = () => setFlipCat(!catFlip)
 
 	return (
 		<Layout location="home">

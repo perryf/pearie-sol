@@ -24,6 +24,18 @@
 	box-shadow: 0 0 100px crimson;
 }
 
+.tikiShift90 {
+	filter: hue-rotate(90deg);
+}
+
+.tikiShift180 {
+	filter: hue-rotate(180deg);
+}
+
+.tikiShift270 {
+	filter: hue-rotate(270deg);
+}
+
 /* .changeHue {
 	box-shadow: 0 0 100px crimson;
 	box-sizing: border-box;

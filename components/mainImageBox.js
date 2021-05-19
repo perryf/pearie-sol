@@ -3,12 +3,24 @@ import Image from 'next/image'
 import { baseUrl, photos, miscImages } from '../constants'
 import styles from './mainImageBox.module.css'
 
-const mainPhoto = photos.find(p => p.src === 'small-standing-sad.jpg')
+const mainPhoto = photos.find(p => p.src === 'small-standing-sad.jpg') || {}
 
 export default function MainImageBox() {
 	const [invertProfile, setInvertProfile] = useState(false)
-	const handleInvertColors = () => {
-		setInvertProfile(!invertProfile)
+	const [leftTikiShift, setLeftTiki] = useState(0)
+	const [rightTikiShift, setRightTiki] = useState(0)
+
+	const handleInvertColors = () => setInvertProfile(!invertProfile)
+	const handleShiftChange = (direction = 'left') => {
+		if (direction === 'left') {
+			const updateVal = leftTikiShift === 270 ? 0 : leftTikiShift + 90
+
+			setLeftTiki(updateVal)
+		}
+		if (direction === 'right') {
+			const updateVal = rightTikiShift === 0 ? 270 : rightTikiShift - 90
+			setRightTiki(updateVal)
+		}
 	}
 
 	return (
@@ -17,10 +29,13 @@ export default function MainImageBox() {
 				<Image
 					alt="tiki fire"
 					src={`${baseUrl}/${miscImages.tikiFire.folder}/${miscImages.tikiFire.src}`}
-					className={styles.tikiFire}
+					className={`${styles.tikiFire} ${
+						leftTikiShift ? styles[`tikiShift${leftTikiShift}`] : ''
+					}`}
 					loader={({ src }) => src}
 					width={120}
 					height={120}
+					onClick={() => handleShiftChange('left')}
 				/>
 			</div>
 			<div>
@@ -42,10 +57,13 @@ export default function MainImageBox() {
 				<Image
 					alt="tiki fire"
 					src={`${baseUrl}/${miscImages.tikiFire.folder}/${miscImages.tikiFire.src}`}
-					className={styles.tikiFire}
+					className={`${styles.tikiFire}
+					${rightTikiShift ? styles[`tikiShift${rightTikiShift}`] : ''}
+					`}
 					loader={({ src }) => src}
 					width={120}
 					height={120}
+					onClick={() => handleShiftChange('right')}
 				/>
 			</div>
 		</section>
