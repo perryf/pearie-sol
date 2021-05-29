@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import EyeBox from '../components/eyeBox'
 import MainImageBox from '../components/mainImageBox'
 import EmailBox from '../components/emailBox'
+import Ticker from '../components/ticker'
 import styles from '../styles/pages/home.module.css'
 
 export default function Home() {
@@ -67,6 +68,7 @@ export default function Home() {
 					</div>
 				</div>
 				<MainImageBox />
+				<Ticker />
 				<footer className={styles.bottomRow}>
 					<EmailBox />
 				</footer>
