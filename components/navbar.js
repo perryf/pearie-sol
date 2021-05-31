@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { navLinks, navColors } from '../constants'
-import styles from './navbar.module.css'
+import styles from '../styles/components/navbar.module.css'
 
 const background = `linear-gradient(${navColors[0]}, ${navColors[1]}, ${navColors[2]})`
 

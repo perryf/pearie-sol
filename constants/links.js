@@ -24,14 +24,19 @@ export const navLinks = [
 		value: 'info',
 		path: '/info'
 	}
-	// {
-	// 	text: 'More cat',
-	// 	value: 'moreCat',
-	// 	path: './ok'
-	// }
 ]
 
 export const coolLinks = [
+	{
+		text: 'Bandcamp',
+		value: 'bandcamp',
+		path: 'https://peariesol.bandcamp.com/'
+	},
+	{
+		text: 'Instagram',
+		value: 'instagram',
+		path: 'https://www.instagram.com/peariesol/'
+	},
 	{
 		text: 'Happy Happy Birthday To Me Records',
 		value: 'hhbtm',
@@ -56,15 +61,5 @@ export const coolLinks = [
 		text: 'Wiggly World',
 		value: 'wigglyWorld',
 		path: 'https://www.buzzsprout.com/1015510'
-	},
-	{
-		text: 'Instagram',
-		value: 'instagram',
-		path: 'https://www.instagram.com/peariesol/'
-	},
-	{
-		text: 'Bandcamp',
-		value: 'bandcamp',
-		path: 'https://peariesol.bandcamp.com/'
 	}
 ]

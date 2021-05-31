@@ -1,4 +1,4 @@
-import styles from './emailBox.module.css'
+import styles from '../styles/components/emailBox.module.css'
 
 export default function EmailBox() {
 	return (

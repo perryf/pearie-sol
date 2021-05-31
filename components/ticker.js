@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import styles from './ticker.module.css'
+import styles from '../styles/components/ticker.module.css'
 
 class Ticker extends Component {
 	constructor(props) {

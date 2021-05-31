@@ -90,11 +90,13 @@
 
 .hotLink {
 	margin: 16px;
-	/* animation: linkTwerk 2s linear infinite alternate; */
-	/* animation-play-state: running; */
 	font-family: 'Fredoka One', Helvetica, sans-serif;
-	text-shadow: 1px 1px 1px black;
+	font-size: 20px;
+	/* text-shadow: 2px 2px 1px black; */
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+		2px 2px 2px #000;
 	color: lightcoral;
+	/* display: inline; */
 }
 
 .hotLink:hover {
@@ -108,39 +110,13 @@
 
 .hotLinkTitle {
 	font-style: italic;
-  margin: 0;
+	margin: 0;
 	font-family: 'Fredoka One', Helvetica, sans-serif;
 	text-shadow: 2px 2px 2px black;
 	color: cyan;
 	animation: linkTwerkHeading 3s linear infinite alternate;
 	animation-play-state: running;
 }
-
-/* .horseVoteBox {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.horseVote {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap-reverse;
-}
-
-.horseVote img {
-	margin: 0 8px;
-}
-
-.horseVoteTitle {
-	text-align: center;
-	font-family: fantasy;
-	color: red;
-	margin: 6px 0 4px;
-} */
 
 @keyframes linkTwerkHeading {
 	0% {
@@ -187,31 +163,12 @@
 		margin: 4px;
 		padding: 6px;
 	}
-	/* 	
-	.hotLinkHeading {
-		width: 180px;
-	}
-	.hotLink {
-		height: 40px;
-	} */
 }
 
 @media (max-width: 768px) {
 	.pressHeading {
 		font-size: 1.2em;
 	}
-	/* 
-	.hotLinkHeading {
-		width: 150px;
-		margin: 2px 0;
-	}
-	.hotLink {
-		height: 30px;
-	}
-	.horseVoteTitle {
-		font-size: 1em;
-		margin: 2px 0;
-	} */
 }
 
 @media (max-width: 572px) {
@@ -237,21 +194,18 @@
 		font-size: 0.9em;
 		margin: 0;
 	}
-	.hotLinks {
-		height: 110px;
-		width: auto;
-		justify-content: flex-start;
-	}
 	.hotLinkTitle {
 		margin: 12px;
 	}
 	.hotLink {
-		margin: 8px;
+		margin: 4px 12px;
 	}
 	.hotLinksBox {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+		flex-wrap: wrap;
+		width: 100vw;
 	}
 	@keyframes linkTwerkHeading {
 		0% {

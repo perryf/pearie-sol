@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import styles from './eyeBox.module.css'
+import styles from '../styles/components/eyeBox.module.css'
 
 class EyeBox extends Component {
 	constructor(props) {

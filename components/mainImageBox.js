@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { baseUrl, photos, miscImages } from '../constants'
-import styles from './mainImageBox.module.css'
+import styles from '../styles/components/mainImageBox.module.css'
 
 const mainPhoto = photos.find(p => p.src === 'small-standing-sad.jpg') || {}
 

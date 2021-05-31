@@ -1,6 +1,6 @@
 import HTMLHead from './htmlHead'
 import NavBar from './navbar'
-import styles from './layout.module.css'
+import styles from '../styles/components/layout.module.css'
 
 export default function Layout(props) {
 	const { children, location } = props

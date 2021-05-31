@@ -1,20 +1,7 @@
 import links from '../constants/json/press'
 import quotes from '../constants/json/pressQuotes'
 import { coolLinks } from '../constants'
-import styles from './infoQuotesLinks.module.css'
-
-const pressLinks = links.map(({ value, text, link }) => (
-	<a href={link} key={value}>
-		<p className={styles.pressLink}>{text}</p>
-	</a>
-))
-
-const pressQuotes = quotes.map(({ value, quote, outlet }) => (
-	<p className={styles.pressQuote} key={value}>
-		<em>{`"${quote}"`}</em>
-		{` - ${outlet}`}
-	</p>
-))
+import styles from '../styles/components/infoQuotesLinks.module.css'
 
 export default function InfoQuotesLinks() {
 	return (
@@ -24,23 +11,31 @@ export default function InfoQuotesLinks() {
 					<h2 className={styles.pressHeading}>
 						Lets hear what folks are saying!
 					</h2>
-					<div className={styles.pressQuotes}>{pressQuotes}</div>
+					<div className={styles.pressQuotes}>
+						{quotes.map(({ value, quote, outlet }) => (
+							<p className={styles.pressQuote} key={value}>
+								<em>{`"${quote}"`}</em>
+								{` - ${outlet}`}
+							</p>
+						))}
+					</div>
 				</div>
 
 				<div className={styles.pressLinkContainer}>
 					<h2 className={styles.pressHeading}>
 						Straight from the horse's mouth!
 					</h2>
-					<div className={styles.pressLinks}>{pressLinks}</div>
+					<div className={styles.pressLinks}>
+						{links.map(({ value, text, link }) => (
+							<a href={link} key={value}>
+								<p className={styles.pressLink}>{text}</p>
+							</a>
+						))}
+					</div>
 				</div>
 			</div>
 
 			<div className={styles.hotLinks}>
-				{/* <img
-					src="gifs/hotLinks.gif"
-					alt="hot links"
-					className={styles.hotLinkHeading}
-				/> */}
 				<div className={styles.hotLinkTitleBox}>
 					<h4 className={styles.hotLinkTitle}>HOT LINKS!</h4>
 				</div>
@@ -51,17 +46,6 @@ export default function InfoQuotesLinks() {
 						</a>
 					))}
 				</div>
-				{/* <div className="horseVoteBox">
-					<h3 className="horseVoteTitle">Dont forget to vote!</h3>
-					<div className="horseVote">
-						<img
-							src="gifs/horsetopsitevote.gif"
-							alt="horse gif 7, thats right, 7 horse gifs"
-							height="60"
-						/>
-						<img src="gifs/horse_vote.gif" alt="horse gif 6" height="60" />
-					</div>
-				</div> */}
 			</div>
 		</div>
 	)
