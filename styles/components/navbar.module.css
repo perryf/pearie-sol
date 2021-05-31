@@ -30,10 +30,22 @@
 	cursor: help;
 }
 
+.activeLink p {
+	color: hotpink !important;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+		2px 2px 2px #000 !important;
+	font-weight: 700;
+}
+
+.activeLink:hover p {
+	animation: none;
+	animation-play-state: paused;
+}
+
 .navLink p {
 	font-size: 28px;
 	margin: 6px 8px;
-	text-shadow: 3px 3px 2px black;
+	text-shadow: 2px 2px 1px black;
 	animation: colorChange 1s linear infinite forwards;
 	animation-play-state: paused;
 	padding: 0;
@@ -87,9 +99,9 @@
 }
 
 @media (max-width: 576px) {
-  .navLink {
-    margin: 6px 2px;
-  }
+	.navLink {
+		margin: 6px 2px;
+	}
 
 	.navLink p {
 		font-size: 16px;

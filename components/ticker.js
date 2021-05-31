@@ -9,9 +9,9 @@ class Ticker extends Component {
 
 	render() {
 		return (
-			<div className={styles['ticker-box']}>
-				<div className={styles['ticker']}>
-					<p className={styles['ticker-item']}>
+			<div className={styles.tickerBox}>
+				<div className={styles.ticker}>
+					<p className={styles.tickerItem}>
 						New album REAL HAPPINESS out June 18th on HHBTM Records!
 					</p>
 				</div>

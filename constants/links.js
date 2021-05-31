@@ -12,7 +12,7 @@ export const navLinks = [
 	{
 		text: 'Media',
 		value: 'media',
-		path: 'media'
+		path: './media'
 	},
 	{
 		text: 'Shows',
@@ -22,7 +22,7 @@ export const navLinks = [
 	{
 		text: 'Info',
 		value: 'info',
-		path: '/info'
+		path: './info'
 	}
 ]
 

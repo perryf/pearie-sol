@@ -1,22 +1,24 @@
-.ticker-box {
+.tickerBox {
+	position: fixed;
+	bottom: 0;
 	width: 100%;
-  padding-left: 100%;
+	padding-left: 100%;
 	overflow: hidden;
 	background-color: black;
 	overflow: hidden;
-	box-sizing: content-box;
-  --duration: 15s;
+	z-index: 12;
+	--duration: 15s;
 }
 
 .ticker {
-  display: inline-block;
-  padding-right: 100%;
-  white-space: nowrap;
-	animation: ticker-scroll var(--duration) linear infinite;
+	display: inline-block;
+	padding-right: 100%;
+	white-space: nowrap;
+	animation: tickerScroll var(--duration) linear infinite;
 }
 
-.ticker-item {
-  padding: 0 20px;
+.tickerItem {
+	padding: 0 20px;
 	margin: 6px 0;
 	display: inline-block;
 	font-size: 32px;
@@ -24,12 +26,12 @@
 	color: red;
 }
 
-@keyframes ticker-scroll {
+@keyframes tickerScroll {
 	0% {
 		transform: translate3d(0, 0, 0);
 	}
 
 	100% {
-		transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-200%, 0, 0);
 	}
 }
