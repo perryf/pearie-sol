@@ -1,6 +1,6 @@
 .releasesPage {
 	/* width: 100%; */
-	height: 100%;
+	/* height: 100%; */
 	background: radial-gradient(#880c88, #ffff63, #d177d1, #16e9e9);
 	/* animation: vibrate 333s linear 8s infinite; */
 	display: flex;
@@ -10,6 +10,7 @@
 }
 
 .iframeBox {
+	margin-top: 30px;
 	/* animation: skew 666s linear 8s infinite; */
 }
 
@@ -27,10 +28,12 @@
 	font-size: 1.3rem;
 }
 
-.sisterPoly {
-	margin: 8px;
+.releaseLink {
+	font-size: 18px;
+	margin: 8px 0 20px;
 	font-style: italic;
-	background: linear-gradient(to right, #e8e8e8, #ccc);
+	font-weight: 700;
+	background: linear-gradient(to right, blue, navy);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
