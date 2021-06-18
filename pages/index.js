@@ -4,6 +4,7 @@ import { baseUrl, miscImages, colors, getRandomIndex } from '../constants'
 import Layout from '../components/layout'
 import EyeBox from '../components/eyeBox'
 import MainImageBox from '../components/mainImageBox'
+import ActionLink from '../components/actionLink'
 import EmailBox from '../components/emailBox'
 import Ticker from '../components/ticker'
 import styles from '../styles/pages/home.module.css'
@@ -39,12 +40,15 @@ export default function Home() {
 							alt="horse head"
 							src={`${baseUrl}/${miscImages.horseHead.folder}/${miscImages.horseHead.src}`}
 							loader={({ src }) => src}
-							className={`${styles.sideImage} ${horseSpin ? styles.horseSpin : ''}`}
+							className={`${styles.sideImage} ${
+								horseSpin ? styles.horseSpin : ''
+							}`}
 							onClick={spinHorse}
 						/>
 					</div>
 					<div className={styles.eyeTitleBox}>
 						<EyeBox />
+						<ActionLink />
 						<div className={styles.mainTitleBox}>
 							<h1
 								style={{ color: titleColor }}
@@ -62,7 +66,9 @@ export default function Home() {
 							alt="cat walk"
 							src={`${baseUrl}/${miscImages.cat.folder}/${miscImages.cat.src}`}
 							loader={({ src }) => src}
-							className={`${styles.sideImage} ${catFlip ? styles.imgVerticalFlip : ''}`}
+							className={`${styles.sideImage} ${
+								catFlip ? styles.imgVerticalFlip : ''
+							}`}
 							onClick={flipCat}
 						/>
 					</div>
