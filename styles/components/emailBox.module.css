@@ -5,7 +5,7 @@
 }
 
 .contactInfoEmail {
-	margin: 12px;
+	margin: 8px;
 	padding: 0 16px;
 	color: greenyellow;
 	font-size: 2em;
@@ -16,10 +16,13 @@
 }
 
 .contactInfoEmail:hover {
-	cursor: help;
+	/* cursor: help; */
 }
 
 @media (max-width: 992px) {
+	.contactInfoEmail {
+		margin: 6px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -28,14 +31,13 @@
 	}
   .contactInfoEmail {
     font-size: 1.7em;
-    margin: 8px;
     padding: 0 8px;
   }
 }
 
 @media (max-width: 572px) {
 	.contactInfo {
-		margin: 6px;
+		margin: 4px;
 	}
 
   .contactInfoEmail {

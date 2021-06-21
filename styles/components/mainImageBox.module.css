@@ -67,4 +67,7 @@
 	.tikiFireBox {
 		display: none;
 	}
+	.mainImageBox > div {
+		margin: 4px;
+	}
 }

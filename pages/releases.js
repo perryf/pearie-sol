@@ -26,7 +26,7 @@ export default function Releases() {
 						<div className={styles.loader}>Patience is a virtue...</div>
 					)}
 					<iframe
-						style={{ border: 0, width: '350px', height: '470px' }}
+						className={styles.iframe}
 						src="https://bandcamp.com/EmbeddedPlayer/album=3036115136/size=large/bgcol=333333/linkcol=e55e10/tracklist=false/transparent=true/"
 						seamless
 						onLoad={() => {
@@ -55,12 +55,7 @@ export default function Releases() {
 					)}
 
 					<iframe
-						style={{
-							visibility: loadedST ? 'visible' : 'hidden',
-							border: 0,
-							width: '350px',
-							height: '470px'
-						}}
+						className={styles.iframe}
 						src="https://bandcamp.com/EmbeddedPlayer/album=797557584/size=large/bgcol=333333/linkcol=cccccc/tracklist=false/transparent=true/"
 						seamless
 						onLoad={() => {

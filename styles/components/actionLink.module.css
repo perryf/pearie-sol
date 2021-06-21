@@ -19,7 +19,7 @@
 }
 
 .actionLinkInfo:hover {
-	cursor: help;
+	/* cursor: help; */
 }
 
 @keyframes colorChange {
@@ -36,7 +36,7 @@
 
 @media (max-width: 992px) {
 	.actionLinkInfo {
-		font-size: 2.5em;
+		font-size: 2.3em;
 	}
 }
 
@@ -58,6 +58,18 @@
 
 	.actionLinkInfo {
 		font-size: 1.7em;
+		margin: 4px;
+		padding: 0 6px;
+	}
+}
+
+@media (max-width: 420px) {
+	.actionLinkBox {
+		margin: 4px;
+	}
+
+	.actionLinkInfo {
+		font-size: 1.5em;
 		margin: 4px;
 		padding: 0 6px;
 	}
