@@ -1,6 +1,11 @@
 .homeContainer {
 	min-height: 100%;
-	background-image: linear-gradient(120deg, #333f63, #715c8c, #715c8c, #838bc2);
+	background-size: 200% 200%;
+	position: absolute;
+	width: 100%;
+	background-image: linear-gradient(120deg, #333f63, #715c8c, #ccccff);
+	animation-play-state: running;
+	animation: backgroundMove 30s linear infinite alternate;
 }
 
 .topRow {
@@ -56,6 +61,18 @@
 .bottomRow {
 	display: flex;
 	justify-content: center;
+}
+
+@keyframes backgroundMove {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 @media (max-width: 992px) {
