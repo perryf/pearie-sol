@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
 import { format, isValid, parse } from 'date-fns'
-import styles from '../data/showList.module.css'
+import styles from '../styles/components/showList.module.css'
 
 const maxFont = 20
 const expFont = (num, x) => Math.pow(num, x)
 
-const ShowList = ({ shows, upcoming }) => {
+const ShowListing = ({ shows, upcoming }) => {
 	const x = !upcoming ? Math.log(maxFont) / Math.log(shows.length) : 1
 	let count = !upcoming ? shows.length : maxFont
 
@@ -13,7 +13,7 @@ const ShowList = ({ shows, upcoming }) => {
 		const { date, venue, location, otherActs, link } = show
 		const parsedDate = parse(date, 'yyyy-MM-dd', new Date())
 		const dateDisplay = isValid(parsedDate)
-			? format(parsedDate, 'yyyy-MM-dd')
+			? format(parsedDate, 'M/dd/yyyy')
 			: date || ''
 		let fontSize = expFont(count + 1, x)
 
@@ -77,7 +77,7 @@ const ShowList = ({ shows, upcoming }) => {
 	)
 }
 
-ShowList.propTypes = {
+ShowListing.propTypes = {
 	shows: PropTypes.arrayOf(
 		PropTypes.shape({
 			date: PropTypes.string.isRequired,
@@ -89,4 +89,4 @@ ShowList.propTypes = {
 	upcoming: PropTypes.bool.isRequired
 }
 
-export default ShowList
+export default ShowListing

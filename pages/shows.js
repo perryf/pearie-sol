@@ -1,7 +1,7 @@
 import { compareAsc, parse } from 'date-fns'
-import showList from '../constants/json/showList'
+import showList from '../data/showList'
 import Layout from '../components/layout'
-import ShowList from '../components/showList'
+import ShowListing from '../components/showListing'
 import styles from '../styles/pages/shows.module.css'
 
 const previousShows = []
@@ -10,7 +10,7 @@ let upcomingShows = []
 showList.forEach(show => {
 	const parsedDate = parse(show.date, 'yyyy-MM-dd', new Date())
 
-	if (compareAsc(new Date(), parsedDate >= 0)) {
+	if (compareAsc(parsedDate, new Date()) >= 0) {
 		upcomingShows.push(show)
 	} else {
 		previousShows.push(show)
@@ -32,7 +32,7 @@ const ShowsPage = () => (
 						☀️
 					</span>
 				</h3>
-				<ShowList shows={upcomingShows} upcoming={true} />
+				<ShowListing shows={upcomingShows} upcoming={true} />
 			</>
 			<>
 				<h3 className={`${styles.showTypeHeading} ${styles.previousHeading}`}>
@@ -44,7 +44,7 @@ const ShowsPage = () => (
 						🌙
 					</span>
 				</h3>
-				<ShowList shows={previousShows} upcoming={false} />
+				<ShowListing shows={previousShows} upcoming={false} />
 			</>
 		</div>
 	</Layout>

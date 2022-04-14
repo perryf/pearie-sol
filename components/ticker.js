@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import { tickerStr } from '../data/tickerInfo'
 import styles from '../styles/components/ticker.module.css'
 
 class Ticker extends Component {
@@ -12,9 +13,7 @@ class Ticker extends Component {
 			<a href="https://hhbtm.bandcamp.com/album/real-happiness" target="_blank">
 				<div className={styles.tickerBox}>
 					<div className={styles.ticker}>
-						<p className={styles.tickerItem}>
-							New album REAL HAPPINESS out June 18th on HHBTM Records!
-						</p>
+						<p className={styles.tickerItem}>{tickerStr}</p>
 					</div>
 				</div>
 			</a>
