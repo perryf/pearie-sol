@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import { format, isValid, parse } from 'date-fns'
-import styles from '../styles/components/showList.module.css'
+import styles from '../data/showList.module.css'
 
 const maxFont = 20
 const expFont = (num, x) => Math.pow(num, x)

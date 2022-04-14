@@ -1,5 +1,29 @@
 [
 	{
+		"date": "2022-05-14",
+		"venue": "Comet Ping Pong",
+		"location": "DC",
+		"otherActs": "Evolfo, Thunderpaw"
+	},
+	{
+		"date": "2022-04-20",
+		"venue": "The Runaway",
+		"location": "DC",
+		"otherActs": "Josephine Network, Shawnis and the Shimmers"
+	},
+	{
+		"date": "2022-03-26",
+		"venue": "Lost Origins Gallery",
+		"location": "DC",
+		"otherActs": "Mike Andre, Brian Straw"
+	},
+	{
+		"date": "2021-11-28",
+		"venue": "Rhizome",
+		"location": "DC",
+		"otherActs": "Foyer Red, Staffers"
+	},
+	{
 		"date": "2020-02-22",
 		"venue": "Spacey Cloud",
 		"location": "DC",

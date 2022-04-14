@@ -1,5 +1,5 @@
-import links from '../constants/json/press'
-import quotes from '../constants/json/pressQuotes'
+import links from '../data/press'
+import quotes from '../data/pressQuotes'
 import { coolLinks } from '../constants'
 import styles from '../styles/components/infoQuotesLinks.module.css'
 
