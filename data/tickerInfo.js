@@ -6,7 +6,7 @@
 // const upcomingShowsStr =
 // 	'4/20 @ the Runaway with Josephine Network & Shawnis and the Shimmers'
 const upcomingShowsStr =
-	'🚨🚨 Upcoming Shows: 4/20 at the Runaway (w/ Josephine Network) & 5/14 at Comet Ping Pong (w/ Evolfo)! 🚨🚨'
+	'🚨🚨 Upcoming Show: 5/14 at Comet Ping Pong (w/ Evolfo)! 🚨🚨'
 
 const tickerStr = upcomingShowsStr
 
