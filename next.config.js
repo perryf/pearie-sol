@@ -1,5 +1,5 @@
 module.exports = {
 	images: {
-		domains: ['https://pearie-sol-images.s3.amazonaws.com']
+		domains: ['pearie-sol-images.s3.amazonaws.com']
 	}
 }

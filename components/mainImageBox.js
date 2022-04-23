@@ -32,7 +32,6 @@ export default function MainImageBox() {
 					className={`${styles.tikiFire} ${
 						leftTikiShift ? styles[`tikiShift${leftTikiShift}`] : ''
 					}`}
-					loader={({ src }) => src}
 					width={120}
 					height={120}
 					onClick={() => handleShiftChange('left')}
@@ -42,7 +41,6 @@ export default function MainImageBox() {
 				<Image
 					priority
 					src={`${baseUrl}/${mainPhoto.folder}/${mainPhoto.src}`}
-					loader={({ src }) => src}
 					onClick={handleInvertColors}
 					className={`
             ${styles.mainImage}
@@ -60,7 +58,6 @@ export default function MainImageBox() {
 					className={`${styles.tikiFire}
 					${rightTikiShift ? styles[`tikiShift${rightTikiShift}`] : ''}
 					`}
-					loader={({ src }) => src}
 					width={120}
 					height={120}
 					onClick={() => handleShiftChange('right')}

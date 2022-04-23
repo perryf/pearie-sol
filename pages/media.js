@@ -97,7 +97,6 @@ export default function Media() {
 									<Image
 										key={photo.src}
 										src={`${baseUrl}/${photo.folder}/${photo.src}`}
-										loader={({ src }) => src}
 										alt="pearie sol photo"
 										width={photo.width || 360}
 										height={photo.height || 240}
@@ -118,7 +117,6 @@ export default function Media() {
 									<Image
 										key={photo.src}
 										src={`${baseUrl}/${photo.folder}/${photo.src}`}
-										loader={({ src }) => src}
 										alt="pearie sol flyer"
 										width={photo.width || 360}
 										height={photo.height || 240}

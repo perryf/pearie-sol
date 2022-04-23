@@ -39,7 +39,6 @@ export default function Home() {
 							height={160}
 							alt="horse head"
 							src={`${baseUrl}/${miscImages.horseHead.folder}/${miscImages.horseHead.src}`}
-							loader={({ src }) => src}
 							className={`${styles.sideImage} ${
 								horseSpin ? styles.horseSpin : ''
 							}`}
@@ -65,7 +64,6 @@ export default function Home() {
 							height={160}
 							alt="cat walk"
 							src={`${baseUrl}/${miscImages.cat.folder}/${miscImages.cat.src}`}
-							loader={({ src }) => src}
 							className={`${styles.sideImage} ${
 								catFlip ? styles.imgVerticalFlip : ''
 							}`}
