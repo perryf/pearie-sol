@@ -17,10 +17,6 @@ export default function HTMLHead() {
 			<link rel="icon" href="/favicon.ico" />
 			<link rel="manifest" href="/manifest.json" />
 			<link rel="shortcut icon" href="/favicon.ico" />
-			<link
-				href="https://fonts.googleapis.com/css?family=Nosifer|Pinyon+Script|Sancreek|Rubik|Macondo+Swash+Caps|Fredoka+One"
-				rel="stylesheet"
-			/>
 		</Head>
 	)
 }
