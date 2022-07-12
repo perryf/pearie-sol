@@ -1,16 +1,14 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Layout from '../components/layout'
 import styles from '../styles/pages/releases.module.css'
 
 export default function Releases() {
 	const [loadedST, setLoadedST] = useState(false)
 	const [loadedRealHappiness, setLoadedRealHappiness] = useState(false)
-	let componentIsMounted = true
+	const componentIsMounted = useRef(true)
 
 	useEffect(() => {
-		return () => {
-			componentIsMounted = false
-		}
+		return () => (componentIsMounted.current = false)
 	}, [])
 
 	return (
@@ -30,15 +28,11 @@ export default function Releases() {
 						src="https://bandcamp.com/EmbeddedPlayer/album=3036115136/size=large/bgcol=333333/linkcol=e55e10/tracklist=false/transparent=true/"
 						seamless
 						onLoad={() => {
-							if (componentIsMounted) setLoadedRealHappiness(true)
+							if (componentIsMounted.current) setLoadedRealHappiness(true)
 						}}
 						title="Real Happiness"
 						id="bandCampEmbedRealHappiness"
-					>
-						<a href="https://hhbtm.bandcamp.com/album/real-happiness">
-							Real Happiness by Pearie Sol
-						</a>
-					</iframe>
+					/>
 				</div>
 				<a
 					href="https://www.hhbtm.com/product/pearie-sol-real-happiness/"
@@ -59,15 +53,11 @@ export default function Releases() {
 						src="https://bandcamp.com/EmbeddedPlayer/album=797557584/size=large/bgcol=333333/linkcol=cccccc/tracklist=false/transparent=true/"
 						seamless
 						onLoad={() => {
-							if (componentIsMounted) setLoadedST(true)
+							if (componentIsMounted.current) setLoadedST(true)
 						}}
 						title="pearie sol s/t tape"
 						id="bandCampEmbedST"
-					>
-						<a href="https://peariesol.bandcamp.com/album/pearie-sol">
-							pearie sol by pearie sol
-						</a>
-					</iframe>
+					/>
 				</div>
 				<a
 					href="http://sisterpolygonrecords.bigcartel.com/"
