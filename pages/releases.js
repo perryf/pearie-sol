@@ -33,21 +33,20 @@ export default function Releases() {
 						title="Real Happiness"
 						id="bandCampEmbedRealHappiness"
 					/>
+					<a
+						href="https://www.hhbtm.com/product/pearie-sol-real-happiness/"
+						className={styles.coolLink}
+					>
+						<p className={styles.releaseLink}>
+							Available on Happy Happy Birthday To Me Records
+						</p>
+					</a>
 				</div>
-				<a
-					href="https://www.hhbtm.com/product/pearie-sol-real-happiness/"
-					className={styles.coolLink}
-				>
-					<p className={styles.releaseLink}>
-						Available on Happy Happy Birthday To Me Records
-					</p>
-				</a>
 
 				<div className={styles.iframeBox}>
 					{!loadedST && (
 						<div className={styles.loader}>Patience is a virtue...</div>
 					)}
-
 					<iframe
 						className={styles.iframe}
 						src="https://bandcamp.com/EmbeddedPlayer/album=797557584/size=large/bgcol=333333/linkcol=cccccc/tracklist=false/transparent=true/"
@@ -58,15 +57,15 @@ export default function Releases() {
 						title="pearie sol s/t tape"
 						id="bandCampEmbedST"
 					/>
+					<a
+						href="http://sisterpolygonrecords.bigcartel.com/"
+						className={styles.coolLink}
+					>
+						<p className={styles.releaseLink}>
+							Available on Sister Polygon Records
+						</p>
+					</a>
 				</div>
-				<a
-					href="http://sisterpolygonrecords.bigcartel.com/"
-					className={styles.coolLink}
-				>
-					<p className={styles.releaseLink}>
-						Available on Sister Polygon Records
-					</p>
-				</a>
 			</div>
 		</Layout>
 	)
