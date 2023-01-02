@@ -10,6 +10,8 @@ let upcomingShowsStr = ''
 // 	'🚨🚨 Upcoming Show: 5/14 at Comet Ping Pong (w/ Evolfo)! 🚨🚨'
 //  upcomingShowsStr =
 // 	'🚨🚨 Upcoming Show: 10/29 Rhizome (w/ Past Pawn & Kilynn Lunsford)! 🚨🚨'
+upcomingShowsStr =
+	'🚨🚨 Upcoming Show: 1/13 DC 9 (w/ Bed Maker & Blood Family Reunion)! 🚨🚨'
 
 const tickerStr = upcomingShowsStr
 

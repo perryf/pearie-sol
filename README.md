@@ -2,6 +2,16 @@
 
 - <https://peariesol.com/>
 
+## How to Run Local Dev
+
+- `npm run dev`
+  - `npm run start` used for production
+
+## How to Update Shows
+
+- add json object to `data/showList.json`, then release update
+  - (optional: update `data/tickerInfo.js`)
+
 ## How to Release updates
 
 - Push to main! - no need to run deploy, Vercel does it for you
