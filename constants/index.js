@@ -1,3 +1,4 @@
+export * from './dateHelperFunctions'
 export * from './helperFunctions'
 export * from './imageLinks'
 export * from './links'

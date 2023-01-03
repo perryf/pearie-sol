@@ -1,5 +1,5 @@
-import { compareAsc, parse, subDays } from 'date-fns'
 import showList from '../data/showList'
+import { determineUpcoming } from '../constants'
 import Layout from '../components/layout'
 import ShowListing from '../components/showListing'
 import styles from '../styles/pages/shows.module.css'
@@ -7,16 +7,12 @@ import styles from '../styles/pages/shows.module.css'
 const previousShows = []
 let upcomingShows = []
 
+// showList is assumed to be in descending order by date
 showList.forEach(show => {
-	// since parsed date is at midnight, better to use yesterday instead of today for comparison
-	const parsedDate = parse(show.date, 'yyyy-MM-dd', new Date())
-	const yesterday = subDays(new Date(), 1)
+	const isUpcoming = determineUpcoming(show)
 
-	if (compareAsc(parsedDate, yesterday) >= 0) {
-		upcomingShows.push(show)
-	} else {
-		previousShows.push(show)
-	}
+	if (isUpcoming) upcomingShows.push(show)
+	else previousShows.push(show)
 })
 
 upcomingShows = upcomingShows.reverse()
