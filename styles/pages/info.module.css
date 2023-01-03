@@ -8,11 +8,11 @@
 .topRow {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 
-.horseHead {
-	width: 60px;
-	height: 60px;
+.topRow .emailImageBox {
+	margin: 12px 30px;
 }
 
 .emailImage {
@@ -31,29 +31,22 @@
 }
 
 @media (max-width: 700px) {
-	/* 
 	.contactInfoEmail {
 		font-size: 1.3em;
 	}
-	.emailImage {
-		width: 80px;
-		height: 50px;
-	} */
+
+	.emailImageBox {
+		width: 70px;
+	}
 }
 
 @media (max-width: 500px) {
-	/* 
-	.horseHead {
-		width: 45px;
-		height: 45px;
-	}
-	.contactInfoEmail {
+	/* .contactInfoEmail {
 		font-size: 1.1em;
 		margin: 0 6px;
+	} */
+
+	.emailImageBox {
+		display: none;
 	}
-	.emailImage {
-		width: 70px;
-		height: 40px;
-	}
-	 */
 }
