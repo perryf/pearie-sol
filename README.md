@@ -10,7 +10,6 @@
 ## How to Update Shows
 
 - add json object to `data/showList.json`, then release update
-  - (optional: update `data/tickerInfo.js`)
 
 ## How to Release updates
 
