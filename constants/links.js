@@ -38,14 +38,9 @@ export const coolLinks = [
 		path: 'https://www.instagram.com/peariesol/'
 	},
 	{
-		text: 'Happy Happy Birthday To Me Records',
-		value: 'hhbtm',
-		path: 'https://www.hhbtm.com/'
-	},
-	{
-		text: 'Sister Polygon Records',
-		value: 'sisterPolygon',
-		path: 'http://sisterpolygonrecords.bigcartel.com/'
+		text: 'Wiggly World',
+		value: 'wigglyWorld',
+		path: 'https://www.buzzsprout.com/1015510'
 	},
 	{
 		text: 'Teen Liver',
@@ -58,8 +53,13 @@ export const coolLinks = [
 		path: 'https://g-a-u-c-h-e.bandcamp.com/releases'
 	},
 	{
-		text: 'Wiggly World',
-		value: 'wigglyWorld',
-		path: 'https://www.buzzsprout.com/1015510'
+		text: 'Happy Happy Birthday To Me Records',
+		value: 'hhbtm',
+		path: 'https://www.hhbtm.com/'
+	},
+	{
+		text: 'Sister Polygon Records',
+		value: 'sisterPolygon',
+		path: 'http://sisterpolygonrecords.bigcartel.com/'
 	}
 ]
