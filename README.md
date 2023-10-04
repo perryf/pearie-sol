@@ -4,6 +4,7 @@
 
 ## How to Run Local Dev
 
+- `yarn install`
 - `npm run dev`
   - `npm run start` used for production
 

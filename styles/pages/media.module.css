@@ -1,88 +1,89 @@
 .mediaPage {
-	min-height: 100%;
-	display: flex;
-	flex-direction: column;
-	background: linear-gradient(to right, #9894b8, #49acaf, #9894b8);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #9894b8, #49acaf, #9894b8);
 }
 
 .mediaPhoto {
-	max-height: 300px;
-	margin: 4px;
-	box-shadow: black 2px 2px 6px;
-	transition: linear;
-	transition-duration: 1s;
+  max-height: 300px;
+  margin: 4px;
+  box-shadow: black 2px 2px 6px;
+  border-radius: 2px;
+  transition: linear;
+  transition-duration: 1s;
 }
 
 .mediaPhoto:hover {
-	cursor: help;
-	box-sizing: border-box;
-	filter: invert(100%) brightness(130%);
-	transition: ease-in;
-	transition-duration: 4s;
+  cursor: help;
+  box-sizing: border-box;
+  filter: invert(100%) brightness(130%);
+  transition: ease-in;
+  transition-duration: 4s;
 }
 
 .mediaHeading {
-	margin: 10px;
-	font-family: cursive;
-	color: lime;
-	text-align: center;
+  margin: 10px;
+  font-family: cursive;
+  color: lime;
+  text-align: center;
 }
 
 .videoBox {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .imageGallery {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: baseline;
-	flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
 }
 
 .imageGallery div {
-	margin: 12px !important; /* Override next Image magic */
+  margin: 12px !important; /* Override next Image magic */
 }
 
 .photoImage {
-	margin: 8px;
+  margin: 8px;
 }
 
 .loader {
-	height: 315px;
+  height: 315px;
 }
 
 .iframeVideo {
-	width: 560px;
-	height: 315px;
-	margin: 4px;
+  width: 560px;
+  height: 315px;
+  margin: 4px;
 }
 
 @media (max-width: 1200px) {
-	.iframeVideo {
-		width: 480px;
-		height: 270px;
-	}
+  .iframeVideo {
+    width: 480px;
+    height: 270px;
+  }
 }
 
 @media (max-width: 992px) {
-	.iframeVideo {
-		width: 400px;
-		height: 225px;
-	}
+  .iframeVideo {
+    width: 400px;
+    height: 225px;
+  }
 }
 
 @media (max-width: 768px) {
-	.videoBox {
-		flex-direction: column;
-	}
+  .videoBox {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 572px) {
-	.iframeVideo {
-		width: 300px;
-		height: 169px;
-	}
+  .iframeVideo {
+    width: 300px;
+    height: 169px;
+  }
 }

@@ -1,48 +1,48 @@
 .showsPage {
-	text-align: center;
+  text-align: center;
   min-height: 100%;
-	background: linear-gradient(
-		to bottom,
-		lightskyblue,
-		lightpink,
-		goldenrod,
-		beige,
-		darkolivegreen,
-		darkgreen,
-		teal,
-		darkcyan,
-		steelblue,
-		indigo,
-		darkslateblue,
-		darkslategrey,
-		black
-	);
+  background: linear-gradient(
+    to bottom,
+    lightskyblue,
+    lightpink,
+    goldenrod,
+    beige,
+    darkolivegreen,
+    darkgreen,
+    teal,
+    darkcyan,
+    steelblue,
+    indigo,
+    darkslateblue,
+    darkslategrey,
+    black
+  );
   /* overflow-y: scroll; */
 }
 
 .showTypeHeading {
-	padding: 8px;
-	font-size: 2em;
-	font-family: 'Macondo Swash Caps', cursive;
-	display: inline-block;
-	border-radius: 8px;
-	box-shadow: 1px 1px 10px black;
+  padding: 8px 12%;
+  font-size: 2em;
+  font-family: 'Macondo Swash Caps', cursive;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px black;
 }
 
 .upcomingHeading {
-	background: #d93;
-	color: whitesmoke;
-	border: 2px solid #b71;
+  background: #d93;
+  color: whitesmoke;
+  border: 2px solid #b71;
 }
 
 .previousHeading {
-	background: #111133;
-	color: whitesmoke;
-	border: 2px solid #111;
+  background: #111133;
+  color: whitesmoke;
+  border: 2px solid #111;
 }
 
 @media (max-width: 700px) {
-	.showTypeHeading {
-		font-size: 1.7em;
-	}
+  .showTypeHeading {
+    font-size: 1.7em;
+  }
 }
