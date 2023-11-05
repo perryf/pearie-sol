@@ -1,94 +1,109 @@
 .homeContainer {
-	min-height: 100%;
-	background-size: 200% 200%;
-	position: absolute;
-	width: 100%;
-	background-image: linear-gradient(120deg, #333f63, #715c8c, #ccccff);
-	animation-play-state: running;
-	animation: backgroundMove 30s linear infinite alternate;
+  min-height: 100vh;
+  max-height: 100vh;
+  background-size: 200% 200%;
+  position: absolute;
+  width: 100%;
+  background-image: linear-gradient(120deg, #333f63, #715c8c, #ccccff);
+  animation-play-state: running;
+  animation: backgroundMove 30s linear infinite alternate;
+}
+
+.bloodContainerTop {
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+
+.bloodContainerBottom {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  transform: rotateZ(180deg) !important;
 }
 
 .topRow {
-	position: relative;
-	display: flex;
-	justify-content: space-around;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
 }
 
 .horseSpin {
-	transition: 666ms;
-	transform: rotateZ(360deg) !important;
+  transition: 666ms;
+  transform: rotateZ(360deg) !important;
 }
 
 .catSpin {
-	transition: 666ms;
-	transform: rotateY(90deg) !important;
+  transition: 666ms;
+  transform: rotateY(90deg) !important;
 }
 
 .eyeTitleBox {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .mainTitleBox {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .mainTitle {
-	margin: 4px 0;
-	text-shadow: 0 0 4px black;
-	font-size: 42px;
-	font-family: 'Nosifer', cursive, serif;
-	font-weight: bold;
-	text-align: center;
-	user-select: none;
+  margin: 4px 0;
+  text-shadow: 0 0 4px black;
+  font-size: 42px;
+  font-family: 'Nosifer', cursive, serif;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
 }
 
 .mainTitle:hover {
-	cursor: help;
+  cursor: help;
 }
 
 .sideImage:hover {
-	cursor: help;
+  cursor: help;
 }
 
 .imgVerticalFlip {
-	transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .bottomRow {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes backgroundMove {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media (max-width: 992px) {
-	.mainTitle {
-		font-size: 36px;
-	}
+  .mainTitle {
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 768px) {
-	.sideImageBox {
-		width: 90px;
-	}
+  .sideImageBox {
+    width: 90px;
+  }
 }
 
 @media (max-width: 572px) {
-	.mainTitle {
-		font-size: 28px;
-	}
+  .mainTitle {
+    font-size: 28px;
+  }
 }
