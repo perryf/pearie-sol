@@ -5,11 +5,15 @@
   background: linear-gradient(to right, #9894b8, #49acaf, #9894b8);
 }
 
+.mediaPhotoBox {
+  margin: 12px;
+  padding: 12px;
+}
+
 .mediaPhoto {
   max-height: 300px;
   margin: 4px;
-  box-shadow: black 2px 2px 6px;
-  border-radius: 2px;
+  border-radius: 8px;
   transition: linear;
   transition-duration: 1s;
 }

@@ -1,43 +1,44 @@
 .mainImageBox {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainImageBox > div {
-	margin: 12px;
+  margin: 12px;
 }
 
 .mainImage {
-	min-width: 320px;
-	z-index: 2;
-	transition: 1s;
+  min-width: 320px;
+  z-index: 2;
+  transition: 1s;
+  border-radius: 8px;
 }
 
 .mainImage:hover {
-	cursor: help;
+  cursor: help;
 }
 
 .invertProfile {
-	filter: hue-rotate(180deg) contrast(150%);
-	box-shadow: 0 0 100px crimson;
+  filter: hue-rotate(180deg) contrast(150%);
+  box-shadow: 0 0 100px crimson;
 }
 
 .tikiFireBox:hover {
-	cursor: help;
+  cursor: help;
 }
 
 .tikiShift90 {
-	filter: hue-rotate(90deg);
+  filter: hue-rotate(90deg);
 }
 
 .tikiShift180 {
-	filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
 }
 
 .tikiShift270 {
-	filter: hue-rotate(270deg);
+  filter: hue-rotate(270deg);
 }
 
 /* .changeHue {
@@ -47,27 +48,27 @@
 } */
 
 @media (max-width: 992px) {
-	.tikiFireBox {
-		width: 90px;
-		height: 90px;
-	}
+  .tikiFireBox {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 @media (max-width: 768px) {
-	.mainImage {
-		min-width: 300px;
-	}
-	.tikiFireBox {
-		width: 75px;
-		height: 75px;
-	}
+  .mainImage {
+    min-width: 300px;
+  }
+  .tikiFireBox {
+    width: 75px;
+    height: 75px;
+  }
 }
 
 @media (max-width: 572px) {
-	.tikiFireBox {
-		display: none;
-	}
-	.mainImageBox > div {
-		margin: 4px;
-	}
+  .tikiFireBox {
+    display: none;
+  }
+  .mainImageBox > div {
+    margin: 4px;
+  }
 }

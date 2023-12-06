@@ -92,14 +92,16 @@ export default function Media() {
               })
               .map(photo => {
                 return (
-                  <Image
-                    key={photo.src}
-                    src={`${baseUrl}/${photo.folder}/${photo.src}`}
-                    alt="pearie sol photo"
-                    width={photo.width || 360}
-                    height={photo.height || 240}
-                    className={styles.mediaPhoto}
-                  />
+                  <div className={styles.mediaPhotoBox}>
+                    <Image
+                      key={photo.src}
+                      src={`${baseUrl}/${photo.folder}/${photo.src}`}
+                      alt="pearie sol photo"
+                      width={photo.width || 360}
+                      height={photo.height || 240}
+                      className={styles.mediaPhoto}
+                    />
+                  </div>
                 )
               })}
           </div>
