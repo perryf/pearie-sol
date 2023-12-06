@@ -1,394 +1,413 @@
 [
-	{
-		"date": "2023-10-15",
-		"venue": "Rhizome",
-		"location": "DC",
-		"otherActs": "A Whole Bunch!",
-		"link": "https://www.rhizomedc.org/new-events/2023/10/15/queering-sound"
-	},
-	{
-		"date": "2023-10-11",
-		"venue": "The Runaway",
-		"location": "DC",
-		"otherActs": "Optic Sink, G.L. Jaguar",
-		"link": "https://www.therunawaydc.com/events"
-	},
-	{
-		"date": "2023-09-23",
-		"venue": "Quarry House Tavern",
-		"location": "MD",
-		"otherActs": "Lewsberg, BRNDA",
-		"link": "https://link.dice.fm/lewsberg_9_23_23"
-	},
-	{
-		"date": "2023-07-10",
-		"venue": "Fort Reno",
-		"location": "DC",
-		"otherActs": "Traumuntanas, Birthday Girl",
-		"link": "https://www.fortreno.com/"
-	},
-	{
-		"date": "2023-04-08",
-		"venue": "Slash Run",
-		"location": "DC",
-		"otherActs": "Cumgirl8, Sad Roach",
-		"link": "http://www.slashrun.com/upcoming-shows/2023/4/8/cumgirl8-guests"
-	},
-	{
-		"date": "2023-01-13",
-		"venue": "DC 9",
-		"location": "DC",
-		"otherActs": "Bed Maker, Blood Family Reunion",
-		"link": "https://www.eventbrite.com/e/bed-maker-tickets-501263160607"
-	},
-	{
-		"date": "2022-10-29",
-		"venue": "Rhizome",
-		"location": "DC",
-		"otherActs": "Kilynn Lunsford, Past Pawn"
-	},
-	{
-		"date": "2022-07-05",
-		"venue": "Rhizome",
-		"location": "DC",
-		"otherActs": "Florry, Staffers"
-	},
-	{
-		"date": "2022-05-14",
-		"venue": "Comet Ping Pong",
-		"location": "DC",
-		"otherActs": "Evolfo, Thunderpaw"
-	},
-	{
-		"date": "2022-04-20",
-		"venue": "The Runaway",
-		"location": "DC",
-		"otherActs": "Josephine Network, Shawnis and the Shimmers"
-	},
-	{
-		"date": "2022-03-26",
-		"venue": "Lost Origins Gallery",
-		"location": "DC",
-		"otherActs": "Mike Andre, Brian Straw"
-	},
-	{
-		"date": "2021-11-28",
-		"venue": "Rhizome",
-		"location": "DC",
-		"otherActs": "Foyer Red, Staffers"
-	},
-	{
-		"date": "2020-02-22",
-		"venue": "Spacey Cloud",
-		"location": "DC",
-		"otherActs": "Canvas Vibes"
-	},
-	{
-		"date": "2019-12-07",
-		"venue": "Rhizome",
-		"location": "MD",
-		"otherActs": "Rhinestone, Ryan's Country Cookout",
-		"link": "https://www.rhizomedc.org/new-events/2019/12/7/rhizome-country-benefit-extravaganza"
-	},
-	{
-		"date": "2019-09-12",
-		"venue": "The Dew Drop Inn",
-		"location": "DC",
-		"otherActs": "Martin Bisi, Luna Honey",
-		"link": "https://www.facebook.com/events/376889473028927/"
-	},
-	{
-		"date": "2019-09-01",
-		"venue": "Jackie Lee's",
-		"location": "DC",
-		"otherActs": "Knife Wife, Media Jeweler, Picky Bunches",
-		"link": "https://www.facebook.com/events/461976051258971/"
-	},
-	{
-		"date": "2019-06-21",
-		"venue": "Pie Shop",
-		"location": "DC",
-		"otherActs": "Forgetter",
-		"link": ""
-	},
-	{
-		"date": "2019-06-03",
-		"venue": "Galaxy Hut",
-		"location": "Arlington, Va",
-		"otherActs": "Erotic Thrillers",
-		"link": "https://www.facebook.com/events/389449198504222/"
-	},
-	{
-		"date": "2019-05-05",
-		"venue": "Comet Ping Pong",
-		"location": "DC",
-		"otherActs": "Feels, Twatsnot",
-		"link": "https://www.facebook.com/events/309353119755598/"
-	},
-	{
-		"date": "2019-04-05",
-		"venue": "Dwell",
-		"location": "DC",
-		"otherActs": "Gauche, Empath, Pledge Drive",
-		"link": "https://www.facebook.com/events/234482170830247/"
-	},
-	{
-		"date": "2019-04-01",
-		"venue": "The Monkey House",
-		"location": "Winooski, Vermont",
-		"otherActs": "Gauche, DJ Disco Phantom",
-		"link": "https://www.facebook.com/events/466189147247993/"
-	},
-	{
-		"date": "2019-03-31",
-		"venue": "Dorchester Art Project",
-		"location": "Boston, MA",
-		"otherActs": "Gauche, Boston Cream",
-		"link": "https://www.facebook.com/events/281830809168060/"
-	},
-	{
-		"date": "2019-03-30",
-		"venue": "Alphaville",
-		"location": "Brooklyn, NY",
-		"otherActs": "Gauche, Privacy Issues",
-		"link": "https://www.facebook.com/events/1976343745797515/"
-	},
-	{
-		"date": "2019-03-29",
-		"venue": "PhilaMOCA",
-		"location": "Philadelphia, PA",
-		"otherActs": "Gauche",
-		"link": "https://www.facebook.com/events/2186825188245476/"
-	},
-	{
-		"date": "2019-03-24",
-		"venue": "Dew Drop Inn",
-		"location": "DC",
-		"otherActs": "Minorcan, TBA",
-		"link": ""
-	},
-	{
-		"date": "2019-03-22",
-		"venue": "Joe Squared",
-		"location": "Baltimore, MD",
-		"otherActs": "Repo Fam, No Hair",
-		"link": ""
-	},
-	{
-		"date": "2019-02-07",
-		"venue": "Dew Drop Inn",
-		"location": "DC",
-		"otherActs": "Reaches, Cool People",
-		"link": "https://www.facebook.com/events/985652574952161/"
-	},
-	{
-		"date": "2018-11-18",
-		"venue": "Black Cat",
-		"location": "DC",
-		"otherActs": "Florry, Coven Tree",
-		"link": "http://www.blackcatdc.com/shows/pearie-sol.html"
-	},
-	{
-		"date": "2018-11-15",
-		"venue": "Willimantic Records",
-		"location": "Willimantic, CT",
-		"otherActs": "November Party, Ghost Painted Sky, The Dirge Carolers",
-		"link": "https://www.facebook.com/events/317390242180084/"
-	},
-	{
-		"date": "2018-11-14",
-		"venue": "Hotel Vernon",
-		"location": "Worcester, MA",
-		"otherActs": "Parlor Shark, L.A. Arrest",
-		"link": "https://www.facebook.com/events/2249858368593063/"
-	},
-	{
-		"date": "2018-11-13",
-		"venue": "BBV",
-		"location": "Boston, MA",
-		"otherActs": "Kármán Voh, Squitch(solo), Daphne Blue Underworld",
-		"link": "https://www.facebook.com/events/488237361685376/"
-	},
-	{
-		"date": "2018-11-11",
-		"venue": "Alphaville",
-		"location": "Brooklyn, NY",
-		"otherActs": "Reaches, Greyon Green and Double Helix",
-		"link": "https://www.facebook.com/events/2153796218219511/"
-	},
-	{
-		"date": "2018-11-4",
-		"venue": "Hole in the Sky",
-		"location": "DC",
-		"otherActs": "Cigarette, Laser Background",
-		"link": "https://www.facebook.com/events/2204626999858647/"
-	},
-	{
-		"date": "2018-9-5",
-		"venue": "Suns Cinema",
-		"location": "DC",
-		"otherActs": "Joe DeGeoge"
-	},
-	{
-		"date": "2018-7-15",
-		"venue": "Dwell",
-		"location": "DC",
-		"otherActs": "Dumb (Vancouver), Glue Factory, Clear Channel"
-	},
-	{
-		"date": "2018-5-5",
-		"venue": "Rhizome",
-		"location": "DC",
-		"otherActs": "TK Echo, Parlor Walls"
-	},
-	{
-		"date": "2018-4-27",
-		"venue": "Cool Ranch",
-		"location": "DC",
-		"otherActs": "Passing Phases, Eureka California, Jim Shorts"
-	},
-	{
-		"date": "2018-2-20",
-		"venue": "Slash Run",
-		"location": "DC",
-		"otherActs": "Reaches, Cool People"
-	},
-	{
-		"date": "2018-2-3",
-		"venue": "Rock and Roll Hotel",
-		"location": "DC",
-		"otherActs": "Beauty Pill, Puff Pieces"
-	},
-	{
-		"date": "2017-6-12",
-		"venue": "453 Florida",
-		"location": "DC",
-		"otherActs": "Poppies, Keeper, Airhead"
-	},
-	{
-		"date": "2017-6-11",
-		"venue": "Joe Squared",
-		"location": "Baltimore, MD",
-		"otherActs": "Poppies, Schroeder, Pinkwench"
-	},
-	{
-		"date": "2017-4-10",
-		"venue": "DrkMttr",
-		"location": "Nashville, TN",
-		"otherActs": "Thelma, Boyscott, Dave Bao Bao"
-	},
-	{
-		"date": "2017-4-9",
-		"venue": "World Famous",
-		"location": "Athens, GA",
-		"otherActs": "Antlered Aunt Lord, Emileigh Ireland"
-	},
-	{
-		"date": "2017-4-8",
-		"venue": "Ryan's House",
-		"location": "Asheville, NC",
-		"otherActs": "Minorcan, Shaken Nature"
-	},
-	{
-		"date": "2017-4-7",
-		"venue": "Slash Run",
-		"location": "DC",
-		"otherActs": "Peter Aaron-Brian Chase Duo, Aaron Leitko"
-	},
-	{
-		"date": "2017-2-17",
-		"venue": "Bloomingdale House",
-		"location": "DC",
-		"otherActs": "Ghost Camp, Kissing is a Crime, Golden Papi"
-	},
-	{
-		"date": "2017-1-12",
-		"venue": "Bossa Lounge",
-		"location": "DC",
-		"otherActs": "Red Fetish, Park Snakes"
-	},
-	{
-		"date": "2017-1-7",
-		"venue": "Baxter Building",
-		"location": "Wheaton, MD",
-		"otherActs": "Governess, DUMP HIM, Kid Claws"
-	},
-	{
-		"date": "2016-12-29",
-		"venue": "Silent Barn",
-		"location": "Brooklyn, NY",
-		"otherActs": "Blood Club, Dougie Poole"
-	},
-	{
-		"date": "2016-12-27",
-		"venue": "Wilder Zangcraft",
-		"location": "Lowell, MA",
-		"otherActs": "Tiffany's House, 2 other solo acts"
-	},
-	{
-		"date": "2016-12-26",
-		"venue": "Aurora",
-		"location": "Providence, RI",
-		"otherActs": "Tiffany's House, Lady Queen Paradise"
-	},
-	{
-		"date": "2016-12-8",
-		"venue": "DC9",
-		"location": "DC",
-		"otherActs": "Mystery Lights, Warbly Jets"
-	},
-	{
-		"date": "2016-9-30",
-		"venue": "Bathtub Republic",
-		"location": "DC",
-		"otherActs": "Hothead, Cool People"
-	},
-	{
-		"date": "2016-7-16",
-		"venue": "Comet Ping Pong",
-		"location": "DC",
-		"otherActs": "The Seth Bogart Show"
-	},
-	{
-		"date": "2016-6-30",
-		"venue": "Bathtub Republic",
-		"location": "DC",
-		"otherActs": "Go Cozy, Echo Courts, Hellrazor, Surf Harp"
-	},
-	{
-		"date": "2016-6-16",
-		"venue": "Slash Run",
-		"location": "DC",
-		"otherActs": "Mary Lattimore, Hot Head, Cool People"
-	},
-	{
-		"date": "2016-5-29",
-		"venue": "Black Cat",
-		"location": "DC",
-		"otherActs": "Benjy Ferree"
-	},
-	{
-		"date": "2016-5-16",
-		"venue": "Galaxy Hut",
-		"location": "Arlington, VA",
-		"otherActs": "Olivia Neutron-John, Future Punx"
-	},
-	{
-		"date": "2016-3-7",
-		"venue": "Black Cat",
-		"location": "DC",
-		"otherActs": "Cigarette, Dougie Poole"
-	},
-	{
-		"date": "2016-2-22",
-		"venue": "Galaxy Hut",
-		"location": "Arlington, VA",
-		"otherActs": "Aaron Leitko"
-	},
-	{
-		"date": "????",
-		"venue": "CD Cellar",
-		"location": "Arlington, VA",
-		"otherActs": "????"
-	}
+  {
+    "date": "2023-12-07",
+    "venue": "Grimm Artisanal Ales",
+    "location": "Brooklyn, NY",
+    "otherActs": "Wifey (duo), Phillip Yancey",
+    "link": "https://grimmales.com/"
+  },
+  {
+    "date": "2023-12-01",
+    "venue": "Lost Origins Gallery",
+    "location": "DC",
+    "otherActs": "Sensor Ghost, Yes Vacancy"
+  },
+  {
+    "date": "2023-10-15",
+    "venue": "Rhizome",
+    "location": "DC",
+    "otherActs": "A Whole Bunch!",
+    "link": "https://www.rhizomedc.org/new-events/2023/10/15/queering-sound"
+  },
+  {
+    "date": "2023-10-11",
+    "venue": "The Runaway",
+    "location": "DC",
+    "otherActs": "Optic Sink, G.L. Jaguar",
+    "link": "https://www.therunawaydc.com/events"
+  },
+  {
+    "date": "2023-09-23",
+    "venue": "Quarry House Tavern",
+    "location": "MD",
+    "otherActs": "Lewsberg, BRNDA",
+    "link": "https://link.dice.fm/lewsberg_9_23_23"
+  },
+  {
+    "date": "2023-07-10",
+    "venue": "Fort Reno",
+    "location": "DC",
+    "otherActs": "Traumuntanas, Birthday Girl",
+    "link": "https://www.fortreno.com/"
+  },
+  {
+    "date": "2023-04-08",
+    "venue": "Slash Run",
+    "location": "DC",
+    "otherActs": "Cumgirl8, Sad Roach",
+    "link": "http://www.slashrun.com/upcoming-shows/2023/4/8/cumgirl8-guests"
+  },
+  {
+    "date": "2022-02-25",
+    "venue": "Lost Origins Gallery",
+    "location": "DC",
+    "otherActs": "Sensor Ghost, Cryptid Summer"
+  },
+  {
+    "date": "2023-01-13",
+    "venue": "DC 9",
+    "location": "DC",
+    "otherActs": "Bed Maker, Blood Family Reunion",
+    "link": "https://www.eventbrite.com/e/bed-maker-tickets-501263160607"
+  },
+  {
+    "date": "2022-10-29",
+    "venue": "Rhizome",
+    "location": "DC",
+    "otherActs": "Kilynn Lunsford, Past Pawn"
+  },
+  {
+    "date": "2022-07-05",
+    "venue": "Rhizome",
+    "location": "DC",
+    "otherActs": "Florry, Staffers"
+  },
+  {
+    "date": "2022-05-14",
+    "venue": "Comet Ping Pong",
+    "location": "DC",
+    "otherActs": "Evolfo, Thunderpaw"
+  },
+  {
+    "date": "2022-04-20",
+    "venue": "The Runaway",
+    "location": "DC",
+    "otherActs": "Josephine Network, Shawnis and the Shimmers"
+  },
+  {
+    "date": "2022-03-26",
+    "venue": "Lost Origins Gallery",
+    "location": "DC",
+    "otherActs": "Mike Andre, Brian Straw"
+  },
+  {
+    "date": "2021-11-28",
+    "venue": "Rhizome",
+    "location": "DC",
+    "otherActs": "Foyer Red, Staffers"
+  },
+  {
+    "date": "2020-02-22",
+    "venue": "Spacey Cloud",
+    "location": "DC",
+    "otherActs": "Canvas Vibes"
+  },
+  {
+    "date": "2019-12-07",
+    "venue": "Rhizome",
+    "location": "MD",
+    "otherActs": "Rhinestone, Ryan's Country Cookout",
+    "link": "https://www.rhizomedc.org/new-events/2019/12/7/rhizome-country-benefit-extravaganza"
+  },
+  {
+    "date": "2019-09-12",
+    "venue": "The Dew Drop Inn",
+    "location": "DC",
+    "otherActs": "Martin Bisi, Luna Honey",
+    "link": "https://www.facebook.com/events/376889473028927/"
+  },
+  {
+    "date": "2019-09-01",
+    "venue": "Jackie Lee's",
+    "location": "DC",
+    "otherActs": "Knife Wife, Media Jeweler, Picky Bunches",
+    "link": "https://www.facebook.com/events/461976051258971/"
+  },
+  {
+    "date": "2019-06-21",
+    "venue": "Pie Shop",
+    "location": "DC",
+    "otherActs": "Forgetter, Luna Honey",
+    "link": ""
+  },
+  {
+    "date": "2019-06-03",
+    "venue": "Galaxy Hut",
+    "location": "Arlington, Va",
+    "otherActs": "Erotic Thrillers",
+    "link": "https://www.facebook.com/events/389449198504222/"
+  },
+  {
+    "date": "2019-05-05",
+    "venue": "Comet Ping Pong",
+    "location": "DC",
+    "otherActs": "Feels, Twatsnot",
+    "link": "https://www.facebook.com/events/309353119755598/"
+  },
+  {
+    "date": "2019-04-05",
+    "venue": "Dwell",
+    "location": "DC",
+    "otherActs": "Gauche, Empath, Pledge Drive",
+    "link": "https://www.facebook.com/events/234482170830247/"
+  },
+  {
+    "date": "2019-04-01",
+    "venue": "The Monkey House",
+    "location": "Winooski, Vermont",
+    "otherActs": "Gauche, DJ Disco Phantom",
+    "link": "https://www.facebook.com/events/466189147247993/"
+  },
+  {
+    "date": "2019-03-31",
+    "venue": "Dorchester Art Project",
+    "location": "Boston, MA",
+    "otherActs": "Gauche, Boston Cream",
+    "link": "https://www.facebook.com/events/281830809168060/"
+  },
+  {
+    "date": "2019-03-30",
+    "venue": "Alphaville",
+    "location": "Brooklyn, NY",
+    "otherActs": "Gauche, Privacy Issues",
+    "link": "https://www.facebook.com/events/1976343745797515/"
+  },
+  {
+    "date": "2019-03-29",
+    "venue": "PhilaMOCA",
+    "location": "Philadelphia, PA",
+    "otherActs": "Gauche",
+    "link": "https://www.facebook.com/events/2186825188245476/"
+  },
+  {
+    "date": "2019-03-24",
+    "venue": "Dew Drop Inn",
+    "location": "DC",
+    "otherActs": "Minorcan, TBA",
+    "link": ""
+  },
+  {
+    "date": "2019-03-22",
+    "venue": "Joe Squared",
+    "location": "Baltimore, MD",
+    "otherActs": "Repo Fam, No Hair",
+    "link": ""
+  },
+  {
+    "date": "2019-02-07",
+    "venue": "Dew Drop Inn",
+    "location": "DC",
+    "otherActs": "Reaches, Cool People",
+    "link": "https://www.facebook.com/events/985652574952161/"
+  },
+  {
+    "date": "2018-11-18",
+    "venue": "Black Cat",
+    "location": "DC",
+    "otherActs": "Florry, Coven Tree",
+    "link": "http://www.blackcatdc.com/shows/pearie-sol.html"
+  },
+  {
+    "date": "2018-11-15",
+    "venue": "Willimantic Records",
+    "location": "Willimantic, CT",
+    "otherActs": "November Party, Ghost Painted Sky, The Dirge Carolers",
+    "link": "https://www.facebook.com/events/317390242180084/"
+  },
+  {
+    "date": "2018-11-14",
+    "venue": "Hotel Vernon",
+    "location": "Worcester, MA",
+    "otherActs": "Parlor Shark, L.A. Arrest",
+    "link": "https://www.facebook.com/events/2249858368593063/"
+  },
+  {
+    "date": "2018-11-13",
+    "venue": "BBV",
+    "location": "Boston, MA",
+    "otherActs": "Kármán Voh, Squitch(solo), Daphne Blue Underworld",
+    "link": "https://www.facebook.com/events/488237361685376/"
+  },
+  {
+    "date": "2018-11-11",
+    "venue": "Alphaville",
+    "location": "Brooklyn, NY",
+    "otherActs": "Reaches, Greyon Green and Double Helix",
+    "link": "https://www.facebook.com/events/2153796218219511/"
+  },
+  {
+    "date": "2018-11-4",
+    "venue": "Hole in the Sky",
+    "location": "DC",
+    "otherActs": "Cigarette, Laser Background",
+    "link": "https://www.facebook.com/events/2204626999858647/"
+  },
+  {
+    "date": "2018-9-5",
+    "venue": "Suns Cinema",
+    "location": "DC",
+    "otherActs": "Joe DeGeoge"
+  },
+  {
+    "date": "2018-7-15",
+    "venue": "Dwell",
+    "location": "DC",
+    "otherActs": "Dumb (Vancouver), Glue Factory, Clear Channel"
+  },
+  {
+    "date": "2018-5-5",
+    "venue": "Rhizome",
+    "location": "DC",
+    "otherActs": "TK Echo, Parlor Walls"
+  },
+  {
+    "date": "2018-4-27",
+    "venue": "Cool Ranch",
+    "location": "DC",
+    "otherActs": "Passing Phases, Eureka California, Jim Shorts"
+  },
+  {
+    "date": "2018-2-20",
+    "venue": "Slash Run",
+    "location": "DC",
+    "otherActs": "Reaches, Cool People"
+  },
+  {
+    "date": "2018-2-3",
+    "venue": "Rock and Roll Hotel",
+    "location": "DC",
+    "otherActs": "Beauty Pill, Puff Pieces"
+  },
+  {
+    "date": "2017-6-12",
+    "venue": "453 Florida",
+    "location": "DC",
+    "otherActs": "Poppies, Keeper, Airhead"
+  },
+  {
+    "date": "2017-6-11",
+    "venue": "Joe Squared",
+    "location": "Baltimore, MD",
+    "otherActs": "Poppies, Schroeder, Pinkwench"
+  },
+  {
+    "date": "2017-4-10",
+    "venue": "DrkMttr",
+    "location": "Nashville, TN",
+    "otherActs": "Thelma, Boyscott, Dave Bao Bao"
+  },
+  {
+    "date": "2017-4-9",
+    "venue": "World Famous",
+    "location": "Athens, GA",
+    "otherActs": "Antlered Aunt Lord, Emileigh Ireland"
+  },
+  {
+    "date": "2017-4-8",
+    "venue": "Ryan's House",
+    "location": "Asheville, NC",
+    "otherActs": "Minorcan, Shaken Nature"
+  },
+  {
+    "date": "2017-4-7",
+    "venue": "Slash Run",
+    "location": "DC",
+    "otherActs": "Peter Aaron-Brian Chase Duo, Aaron Leitko"
+  },
+  {
+    "date": "2017-2-17",
+    "venue": "Bloomingdale House",
+    "location": "DC",
+    "otherActs": "Ghost Camp, Kissing is a Crime, Golden Papi"
+  },
+  {
+    "date": "2017-1-12",
+    "venue": "Bossa Lounge",
+    "location": "DC",
+    "otherActs": "Red Fetish, Park Snakes"
+  },
+  {
+    "date": "2017-1-7",
+    "venue": "Baxter Building",
+    "location": "Wheaton, MD",
+    "otherActs": "Governess, DUMP HIM, Kid Claws"
+  },
+  {
+    "date": "2016-12-29",
+    "venue": "Silent Barn",
+    "location": "Brooklyn, NY",
+    "otherActs": "Blood Club, Dougie Poole"
+  },
+  {
+    "date": "2016-12-27",
+    "venue": "Wilder Zangcraft",
+    "location": "Lowell, MA",
+    "otherActs": "Tiffany's House, 2 other solo acts"
+  },
+  {
+    "date": "2016-12-26",
+    "venue": "Aurora",
+    "location": "Providence, RI",
+    "otherActs": "Tiffany's House, Lady Queen Paradise"
+  },
+  {
+    "date": "2016-12-8",
+    "venue": "DC9",
+    "location": "DC",
+    "otherActs": "Mystery Lights, Warbly Jets"
+  },
+  {
+    "date": "2016-9-30",
+    "venue": "Bathtub Republic",
+    "location": "DC",
+    "otherActs": "Hothead, Cool People"
+  },
+  {
+    "date": "2016-7-16",
+    "venue": "Comet Ping Pong",
+    "location": "DC",
+    "otherActs": "The Seth Bogart Show"
+  },
+  {
+    "date": "2016-6-30",
+    "venue": "Bathtub Republic",
+    "location": "DC",
+    "otherActs": "Go Cozy, Echo Courts, Hellrazor, Surf Harp"
+  },
+  {
+    "date": "2016-6-16",
+    "venue": "Slash Run",
+    "location": "DC",
+    "otherActs": "Mary Lattimore, Hot Head, Cool People"
+  },
+  {
+    "date": "2016-5-29",
+    "venue": "Black Cat",
+    "location": "DC",
+    "otherActs": "Benjy Ferree"
+  },
+  {
+    "date": "2016-5-16",
+    "venue": "Galaxy Hut",
+    "location": "Arlington, VA",
+    "otherActs": "Olivia Neutron-John, Future Punx"
+  },
+  {
+    "date": "2016-3-7",
+    "venue": "Black Cat",
+    "location": "DC",
+    "otherActs": "Cigarette, Dougie Poole"
+  },
+  {
+    "date": "2016-2-22",
+    "venue": "Galaxy Hut",
+    "location": "Arlington, VA",
+    "otherActs": "Aaron Leitko"
+  },
+  {
+    "date": "????",
+    "venue": "CD Cellar",
+    "location": "Arlington, VA",
+    "otherActs": "????"
+  }
 ]
