@@ -25,3 +25,5 @@
 - <https://gifcities.org/>
 - <http://www.rw-designer.com/gallery>
 - <https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b>
+
+- if github starts asking for username and password again, see this https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh

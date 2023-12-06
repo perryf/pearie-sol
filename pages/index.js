@@ -84,14 +84,14 @@ export default function Home() {
           <EmailBox />
         </footer>
 
-        <div className={styles.bloodContainerBottom}>
+        {/* <div className={styles.bloodContainerBottom}>
           <Image
             layout="fill"
             objectFit="fill"
             alt="blood"
             src={`${baseUrl}/${miscImages.blood.folder}/${miscImages.blood.src}`}
           />
-        </div>
+        </div> */}
       </div>
     </Layout>
   )
