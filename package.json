@@ -1,31 +1,31 @@
 {
-	"name": "pearie-sol-music",
-	"version": "0.1.0",
-	"private": true,
-	"homepage": "https://peariesol.com/",
-	"dependencies": {
-		"date-fns": "^2.28.0",
-		"next": "12",
-		"prop-types": "^15.8.1",
-		"react": "^18.0.0",
-		"react-dom": "^18.0.0"
-	},
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"export": "next build && next export"
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	}
+  "name": "pearie-sol-music",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://peariesol.com/",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "next": "12",
+    "prop-types": "^15.8.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
