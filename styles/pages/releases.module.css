@@ -1,81 +1,10 @@
 .releasesPage {
-	/* width: 100%; */
-	min-height: 100%;
-	background: radial-gradient(#880c88, #ffff63, #d177d1, #16e9e9);
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.iframeBox {
-	margin-top: 30px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-/* .iframePlayer {
-	border: 0;
-	width: 300px;
-	height: 300px;
-} */
-
-.iframe {
-	border: 0;
-	width: 350px;
-	height: 470px;
-}
-
-.loader {
-	position: relative;
-	top: 150px;
-	text-align: center;
-	font-style: italic;
-	font-size: 1.3rem;
-}
-
-.releaseLink {
-	font-size: 18px;
-	margin: 8px 0 20px;
-	font-style: italic;
-	font-weight: 700;
-	background: linear-gradient(to right, blue, navy);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.coolLink:hover {
-	cursor: help;
-}
-
-.iframe {
-	border: 0;
-	width: 350px;
-	height: 470px;
-}
-
-@media (min-width: 900px) {
-	/* .iframePlayer {
-		width: 450px;
-		height: 450px;
-	} */
-}
-
-@media (max-width: 572px) {
-	.iframe {
-		border: 0;
-		width: 300px;
-		height: 403px;
-	}
-}
-
-@media (max-width: 320px) {
-	.iframe {
-		border: 0;
-		width: 250px;
-		height: 336px;
-	}
+  /* width: 100%; */
+  min-height: 100%;
+  background: radial-gradient(#880c88, #ffff63, #d177d1, #16e9e9);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
