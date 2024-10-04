@@ -1,5 +1,5 @@
 import Layout from '../components/layout'
-import ReleaseIframeWrapper from '../components/releaseIframeWrapper1'
+import ReleaseIframeWrapper from '../components/releaseIframeWrapper'
 import styles from '../styles/pages/releases.module.css'
 
 export default function Releases() {
