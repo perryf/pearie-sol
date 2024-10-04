@@ -3,16 +3,16 @@ import showList from '../data/showList'
 import { determineUpcoming } from '../constants'
 
 const formatTicker = (show = {}) => {
-	const parsedDate = parse(show.date, 'yyyy-MM-dd', new Date())
-	const dateDisplay = isValid(parsedDate)
-		? `${format(parsedDate, 'M/dd')} `
-		: ''
-	const locationDisplay = show.location !== 'DC' ? `, ${show.location}` : ''
-	const otherActsDisplay = show.otherActs
-		? show.otherActs.replace(',', ' &')
-		: ''
+  const parsedDate = parse(show.date, 'yyyy-MM-dd', new Date())
+  const dateDisplay = isValid(parsedDate)
+    ? `${format(parsedDate, 'M/dd')} `
+    : ''
+  const locationDisplay = show.location !== 'DC' ? `, ${show.location}` : ''
+  const otherActsDisplay = show.otherActs
+    ? show.otherActs.replace(',', ' &')
+    : ''
 
-	return `🚨🚨 Upcoming Show: ${dateDisplay} ${show.venue} ${locationDisplay} (w/ ${otherActsDisplay})! 🚨🚨`
+  return `🚨🚨 Upcoming Show: ${dateDisplay} ${show.venue} ${locationDisplay} (w/ ${otherActsDisplay})! 🚨🚨`
 }
 
 // TODO -> refactor to not have to create a whole array of upcoming shows, just find nearest upcoming show
@@ -21,9 +21,9 @@ let upcomingShows = []
 
 // showList is assumed to be in descending order by date
 showList.forEach(show => {
-	const isUpcoming = determineUpcoming(show)
+  const isUpcoming = determineUpcoming(show)
 
-	if (isUpcoming) upcomingShows.push(show)
+  if (isUpcoming) upcomingShows.push(show)
 })
 
 const nearestShow = upcomingShows[upcomingShows.length - 1]
@@ -35,7 +35,7 @@ let upcomingShowsStr = ''
 
 if (nearestShow) upcomingShowsStr = formatTicker(nearestShow)
 
-const tickerOverride = '🚨🚨 New Album SYNTHETIC LIFE out on BandCamp -- See Releases🚨🚨'
+const tickerOverride = '🚨🚨 New Album SYNTHETIC LIFE out on BandCamp 🚨🚨'
 
 const tickerStr = tickerOverride || upcomingShowsStr
 

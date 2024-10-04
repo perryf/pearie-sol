@@ -4,7 +4,7 @@ import { baseUrl, miscImages, colors, getRandomIndex } from '../constants'
 import Layout from '../components/layout'
 import EyeBox from '../components/eyeBox'
 import MainImageBox from '../components/mainImageBox'
-// import ActionLink from '../components/actionLink'
+import ActionLink from '../components/actionLink'
 import EmailBox from '../components/emailBox'
 import Ticker from '../components/ticker'
 import styles from '../styles/pages/home.module.css'
@@ -52,8 +52,9 @@ export default function Home() {
             />
           </div>
           <div className={styles.eyeTitleBox}>
+            {/* Can put different things like album releases here in ActionLink */}
+            <ActionLink />
             <EyeBox />
-            {/* <ActionLink /> removed Real Happiness link 10/4/23. Delete this if no longer needed*/}
             <div className={styles.mainTitleBox}>
               <h1
                 style={{ color: titleColor }}
