@@ -1,8 +1,9 @@
 import Layout from '../components/layout'
-import ReleaseIframeWrapper from '../components/ReleaseIframeWrapper'
+import ReleaseIframeWrapper from '../components/releaseIframeWrapper1'
 import styles from '../styles/pages/releases.module.css'
 
 export default function Releases() {
+// ? bandcamp iframe does a weird thing where if you refresh on the page it doesn't load the iframe. Not having problem with youtube embed. But if you start on another page and click over, it works fine? Not sure what this is.
   return (
     <Layout location="releases">
       <div className={styles.releasesPage}>

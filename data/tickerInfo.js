@@ -35,10 +35,13 @@ let upcomingShowsStr = ''
 
 if (nearestShow) upcomingShowsStr = formatTicker(nearestShow)
 
-const tickerStr = upcomingShowsStr
+const tickerOverride = '🚨🚨 New Album SYNTHETIC LIFE out on BandCamp -- See Releases🚨🚨'
+
+const tickerStr = tickerOverride || upcomingShowsStr
 
 export { tickerStr }
 
+// ** Leaving here for now as example
 // const happinessStr = 'New album REAL HAPPINESS out June 18th on HHBTM Records!'
 //  upcomingShowsStr =
 // 	'4/20 @ the Runaway with Josephine Network & Shawnis and the Shimmers'

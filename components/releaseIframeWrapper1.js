@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import styles from '../styles/pages/releases.module.css'
+import styles from '../styles/components/releaseIframeWrapper.module.css'
 
 export default function ReleaseIframeWrapper(props) {
   const { src, title, id, releaseHref, releaseMessage } = props
