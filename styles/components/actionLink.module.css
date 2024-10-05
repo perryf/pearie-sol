@@ -1,76 +1,77 @@
 .actionLinkBox {
-	border: 3px dashed #e55e10;
-	border-radius: 6px;
-	margin: 6px 0;
-	/* margin: 12px; */
+  border: 3px dashed #e55e10;
+  border-radius: 6px;
+  margin: 6px 0;
+  /* margin: 12px; */
 }
 
 .actionLinkInfo {
-	margin: 12px;
-	padding: 0 16px;
-	color: #e55e10;
-	font-size: 3em;
-	font-family: 'Fredoka One', sans-serif;
-	text-shadow: 0 0 4px black;
-	font-style: italic;
-	font-weight: bold;
-	animation-play-state: running;
-	animation: colorChange 3s linear infinite;
+  margin: 12px;
+  padding: 0 16px;
+  color: #e55e10;
+  font-size: 3em;
+  font-family: 'Fredoka One', sans-serif;
+  text-shadow: 0 0 4px black;
+  font-style: italic;
+  font-weight: bold;
+  animation-play-state: running;
+  animation: colorChange 3s linear infinite;
+  text-align: center;
 }
 
 .actionLinkInfo:hover {
-	/* cursor: help; */
+  cursor: help;
 }
 
 @keyframes colorChange {
-	0% {
-		color: #e55e10;
-	}
-	50% {
-		color: #72d4f9;
-	}
-	100% {
-		color: #e55e10;
-	}
+  0% {
+    color: #e55e10;
+  }
+  50% {
+    color: #72d4f9;
+  }
+  100% {
+    color: #e55e10;
+  }
 }
 
 @media (max-width: 992px) {
-	.actionLinkInfo {
-		font-size: 2.3em;
-	}
+  .actionLinkInfo {
+    font-size: 2.3em;
+  }
 }
 
 @media (max-width: 768px) {
-	.actionLinkBox {
-		margin: 16px;
-	}
-	.actionLinkInfo {
-		font-size: 2.2em;
-		margin: 8px;
-		padding: 0 8px;
-	}
+  .actionLinkBox {
+    margin: 16px;
+  }
+  .actionLinkInfo {
+    font-size: 2.2em;
+    margin: 8px;
+    padding: 0 8px;
+  }
 }
 
 @media (max-width: 572px) {
-	.actionLinkBox {
-		margin: 6px;
-	}
+  .actionLinkBox {
+    margin: 6px;
+  }
 
-	.actionLinkInfo {
-		font-size: 1.7em;
-		margin: 4px;
-		padding: 0 6px;
-	}
+  .actionLinkInfo {
+    font-size: 1.7em;
+    margin: 4px;
+    padding: 0 6px;
+  }
 }
 
 @media (max-width: 420px) {
-	.actionLinkBox {
-		margin: 4px;
-	}
+  .actionLinkBox {
+    margin: 4px;
+  }
 
-	.actionLinkInfo {
-		font-size: 1.5em;
-		margin: 4px;
-		padding: 0 6px;
-	}
+  .actionLinkInfo {
+    font-size: 1.5em;
+    margin: 4px;
+    padding: 0 6px;
+  }
 }
