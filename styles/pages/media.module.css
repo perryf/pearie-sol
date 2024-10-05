@@ -2,7 +2,16 @@
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to right, #9894b8, #49acaf, #9894b8);
+  background: linear-gradient(
+    60deg,
+    #d239cd,
+    #5a4cc5,
+    #49af51,
+    #cc749c,
+    #9894b8,
+    #4130c1,
+    #e0ce2f
+  );
 }
 
 .mediaPhotoBox {
