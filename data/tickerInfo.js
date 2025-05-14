@@ -28,14 +28,16 @@ showList.forEach(show => {
 
 const nearestShow = upcomingShows[upcomingShows.length - 1]
 
-/* 
-  // * For the ticker to work best, make sure your string is not too short and not too long.  See examples below
-*/
+/*
+ * For the ticker to work best, make sure your string is not too short and not too long.  See examples below
+ */
 let upcomingShowsStr = ''
 
 if (nearestShow) upcomingShowsStr = formatTicker(nearestShow)
 
-const tickerOverride = '🚨🚨 New Album SYNTHETIC LIFE out on BandCamp 🚨🚨'
+let tickerOverride = ''
+
+// tickerOverride = '🚨🚨 New Album SYNTHETIC LIFE out on BandCamp 🚨🚨'
 
 const tickerStr = tickerOverride || upcomingShowsStr
 
