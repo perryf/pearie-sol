@@ -1,11 +1,15 @@
 .displayNone {
-	display: none;
+  display: none;
 }
 
 .pointer {
-	cursor: pointer;
+  cursor: pointer;
 }
 /* 
 .customCursor {
 	cursor: url(fire.cur);
 } */
+
+.twitch:hover {
+  transform: translate(10px, -12px);
+}

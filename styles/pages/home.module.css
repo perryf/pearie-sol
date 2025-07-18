@@ -172,6 +172,22 @@
   justify-content: center;
 }
 
+.dumbText {
+  position: absolute;
+  top: 66%;
+  left: 66%;
+  color: rgb(255, 0, 255);
+  /* opacity: 0.2; */
+  font-size: 16px;
+  user-select: none;
+  z-index: 10;
+  background: blue;
+}
+
+.dumbText:hover {
+  transform: translate(-500%, -500%);
+}
+
 @keyframes gradientShift {
   0% {
     background-position: 0% 50%;
