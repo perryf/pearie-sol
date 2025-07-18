@@ -1,5 +1,23 @@
 [
   {
+    "date": "2025-08-25",
+    "venue": "Pete's Candy Shop",
+    "location": "Brooklyn, NY",
+    "otherActs": ""
+  },
+  {
+    "date": "2025-07-27",
+    "venue": "Cobra Club",
+    "location": "Brooklyn, NY",
+    "otherActs": "Human Hearts, Psychic Lines, Viennetta"
+  },
+  {
+    "date": "2025-07-18",
+    "venue": "Apartment Show - Text for Address",
+    "location": "Brooklyn, NY",
+    "otherActs": "Nadia Kazmi & more!"
+  },
+  {
     "date": "2025-05-22",
     "venue": "Wonderville",
     "location": "Brooklyn, NY",
