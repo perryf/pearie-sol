@@ -1,15 +1,15 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-	padding: 0;
-	margin: 0;
-	height: 100%;
-	background: #715c8c;
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: #715c8c;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 html,
@@ -17,20 +17,20 @@ body,
 body > div:first-child,
 div#__next,
 div#__next > div {
-	height: 100%;
+  height: 100%;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 ol,
 ul,
 li {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Bootstrap 4	min: 576px	min: 768px	min: 992px	min: 1200px */

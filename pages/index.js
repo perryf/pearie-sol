@@ -30,62 +30,67 @@ export default function Home() {
   return (
     <Layout location="home">
       <div className={styles.homeContainer}>
-        <div className={styles.bloodContainerTop}>
-          <Image
-            layout="fill"
-            objectFit="fill"
-            alt="blood"
-            src={`${baseUrl}/${miscImages.blood.folder}/${miscImages.blood.src}`}
-          />
-        </div>
-        <div className={styles.topRow}>
-          <div className={styles.sideImageBox}>
+        <div className={styles.trippyBackgroundContainer}>
+          <div className={styles.trippyBackground}></div>
+          <div className={styles.morphingGrid}></div>
+          <div className={styles.bloodContainerTop}>
             <Image
-              width={160}
-              height={160}
-              alt="horse head"
-              src={`${baseUrl}/${miscImages.horseHead.folder}/${miscImages.horseHead.src}`}
-              className={`${styles.sideImage} ${
-                horseSpin ? styles.horseSpin : ''
-              }`}
-              onClick={spinHorse}
+              layout="fill"
+              objectFit="fill"
+              alt="blood"
+              src={`${baseUrl}/${miscImages.blood.folder}/${miscImages.blood.src}`}
             />
           </div>
-          <div className={styles.eyeTitleBox}>
-            {/* Can put different things like album releases here in ActionLink */}
-            <ActionLink />
-            <EyeBox />
-            <div className={styles.mainTitleBox}>
-              <h1
-                style={{ color: titleColor }}
-                onClick={handleTitleColor}
-                className={styles.mainTitle}
-              >
-                Pearie Sol
-              </h1>
+          
+          <div className={styles.trippyContent}>
+            <div className={styles.topRow}>
+              <div className={styles.sideImageBox}>
+                <Image
+                  width={160}
+                  height={160}
+                  alt="horse head"
+                  src={`${baseUrl}/${miscImages.horseHead.folder}/${miscImages.horseHead.src}`}
+                  className={`${styles.sideImage} ${
+                    horseSpin ? styles.horseSpin : ''
+                  }`}
+                  onClick={spinHorse}
+                />
+              </div>
+              <div className={styles.eyeTitleBox}>
+                {/* Can put different things like album releases here in ActionLink */}
+                <ActionLink />
+                <EyeBox />
+                <div className={styles.mainTitleBox}>
+                  <h1
+                    style={{ color: titleColor }}
+                    onClick={handleTitleColor}
+                    className={styles.mainTitle}
+                  >
+                    Pearie Sol
+                  </h1>
+                </div>
+              </div>
+              <div className={styles.sideImageBox}>
+                <Image
+                  width={160}
+                  height={160}
+                  alt="cat walk"
+                  src={`${baseUrl}/${miscImages.cat.folder}/${miscImages.cat.src}`}
+                  className={`${styles.sideImage} ${
+                    catFlip ? styles.imgVerticalFlip : ''
+                  }`}
+                  onClick={flipCat}
+                />
+              </div>
             </div>
-          </div>
-          <div className={styles.sideImageBox}>
-            <Image
-              width={160}
-              height={160}
-              alt="cat walk"
-              src={`${baseUrl}/${miscImages.cat.folder}/${miscImages.cat.src}`}
-              className={`${styles.sideImage} ${
-                catFlip ? styles.imgVerticalFlip : ''
-              }`}
-              onClick={flipCat}
-            />
-          </div>
-        </div>
-        <MainImageBox />
+            <MainImageBox />
 
-        <Ticker />
-        <footer className={styles.bottomRow}>
-          <EmailBox />
-        </footer>
-
-        {/* <div className={styles.bloodContainerBottom}>
+            <footer className={styles.bottomRow}>
+              <EmailBox />
+            </footer>
+          </div>
+          <Ticker />
+          {/* <div className={styles.bloodContainerBottom}>
           <Image
             layout="fill"
             objectFit="fill"
@@ -93,6 +98,7 @@ export default function Home() {
             src={`${baseUrl}/${miscImages.blood.folder}/${miscImages.blood.src}`}
           />
         </div> */}
+        </div>
       </div>
     </Layout>
   )
