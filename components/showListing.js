@@ -28,6 +28,14 @@ const ShowListing = ({ shows, upcoming }) => {
               {dateDisplay}
             </span>
           </li>
+          {show.time && (
+            <li className={styles.showListItemRow}>
+              <span>
+                <span className={styles.showCategory}>Time: </span>
+                {show.time}
+              </span>
+            </li>
+          )}
           <li className={styles.showListItemRow}>
             <span>
               <span className={styles.showCategory}>Location: </span>
