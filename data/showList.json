@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-10-18",
+    "venue": "Brother's Wash & Dry",
+    "time": "8:00pm",
+    "location": "Queens, NY",
+    "otherActs": "Kolb, Gobbinjr, Insane Angel"
+  },
+  {
+    "date": "2025-10-12",
+    "venue": "Young Ethel's",
+    "time": "8:00pm",
+    "location": "Brooklyn, NY",
+    "otherActs": "Tardy, Babe"
+  },
+  {
     "date": "2025-08-25",
     "venue": "Pete's Candy Shop",
     "time": "9:00pm",
