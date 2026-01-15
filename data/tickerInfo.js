@@ -41,8 +41,9 @@ let tickerOverride = ''
 // tickerOverride = '🚨🚨 New Album SYNTHETIC LIFE out on BandCamp 🚨🚨'
 
 const tickerStr = tickerOverride || upcomingShowsStr
+const tickerInfo = nearestShow
 
-export { tickerStr }
+export { tickerStr, tickerInfo }
 
 // ** Leaving here for now as example
 // const happinessStr = 'New album REAL HAPPINESS out June 18th on HHBTM Records!'
