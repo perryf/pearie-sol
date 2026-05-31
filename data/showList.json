@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-15",
+    "venue": "Rhizome",
+    "time": "7:00pm",
+    "location": "Washington DC",
+    "otherActs": "That This, Vampires From Africa"
+  },
+  {
+    "date": "2026-07-23",
+    "venue": "Windjammer Bar",
+    "time": "8:30pm",
+    "location": "Queens, NY",
+    "otherActs": "A Cosmic Wingspan, Bat Kid, The Yeggs"
+  },
+  {
+    "date": "2026-06-20",
+    "venue": "Clown Show Prison Books and Fine Objects",
+    "time": "7:00pm",
+    "location": "Brooklyn, NY",
+    "otherActs": "Dizzy Spells Martian"
+  },
+  {
     "date": "2026-05-10",
     "venue": "Cobra Club",
     "time": "7:30pm",
