@@ -59,7 +59,7 @@ const ShowListing = ({ shows, upcoming }) => {
           {link && (
             <li className={`${styles.showListItemRow} ${styles.showListLink}`}>
               <span>
-                <a href={link}>more info</a>
+                <a href={link}>show link</a>
               </span>
             </li>
           )}

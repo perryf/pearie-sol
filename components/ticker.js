@@ -8,13 +8,7 @@ export default function Ticker() {
   return (
     <div className={styles.tickerBox}>
       <div className={styles.ticker}>
-        <a
-          href={
-            tickerInfo?.link ||
-            'https://peariesol.bandcamp.com/album/synthetic-life/'
-          }
-          target="_blank"
-        >
+        <a href={tickerInfo?.link || 'shows'} target="_blank">
           <p className={styles.tickerItem}>{tickerStr}</p>
         </a>
       </div>
