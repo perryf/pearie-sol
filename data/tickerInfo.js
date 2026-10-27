@@ -8,12 +8,12 @@ const formatTicker = (show = {}) => {
     ? `${format(parsedDate, 'M/dd')} `
     : ''
   const timeDisplay = show.time ? `at ${show.time}` : ''
-  const locationDisplay = show.location !== 'DC' ? `, ${show.location}` : ''
+  const locationDisplay = `, ${show.location}`
   const otherActsDisplay = show.otherActs
     ? ` (w/ ${show.otherActs.replace(',', ' &')}`
     : ''
 
-  return `🚨🚨 Upcoming Show: ${dateDisplay} ${timeDisplay} ${show.venue} ${locationDisplay}${otherActsDisplay}! 🚨🚨`
+  return `🚨🚨 Upcoming Show: ${dateDisplay} ${timeDisplay} ${show.venue}${locationDisplay}${otherActsDisplay}! 🚨🚨`
 }
 
 // TODO -> refactor to not have to create a whole array of upcoming shows, just find nearest upcoming show

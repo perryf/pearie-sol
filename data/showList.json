@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-11-07",
+    "venue": "Cobra Club",
+    "time": "7:30",
+    "location": "Brooklyn, NY",
+    "otherActs": "Tiers La Familia, OOF, Pillow Throw"
+  },
+  {
+    "date": "2026-10-10",
+    "venue": "Mama Tried",
+    "time": "4:00pm",
+    "location": "Brooklyn, NY",
+    "otherActs": "Gladys, Cat City"
+  },
+  {
     "date": "2026-08-16",
     "venue": "Wax Atlas",
     "time": "7:00pm",
