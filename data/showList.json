@@ -1,8 +1,16 @@
 [
   {
+    "date": "2026-11-23",
+    "venue": "Bowery Palace",
+    "time": "7:00pm",
+    "location": "327 Bowery New York, NY",
+    "otherActs": "Bull Thieves, Anni Rossi",
+    "link": "https://www.ticketweb.com/event/bull-thieves-anni-rossi-bowery-palace-tickets/14414884?theme=bowerypalace"
+  },
+  {
     "date": "2026-11-07",
     "venue": "Cobra Club",
-    "time": "7:30",
+    "time": "7:30pm",
     "location": "Brooklyn, NY",
     "otherActs": "Tiers La Familia, OOF, Pillow Throw"
   },
